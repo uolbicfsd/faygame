@@ -32,7 +32,7 @@ Write a JSON array to the given output path (use the Write tool). Each item:
   "name": "Program name",
   "funder": "Organisation",
   "funder_country": "Country or 'International'",
-  "category": "Seed/Small Research Grant | Travel Grant | Visiting/Mobility Grant | Industry Research Award | Compute/Cloud Credits",
+  "category": "Seed/Small Research Grant | Travel Grant | Visiting/Mobility Grant | Industry Research Award | Compute/Cloud Credits | Postdoctoral Fellowship",
   "amount": "e.g. Up to USD 15,000 / EUR 2,000 per month + travel",
   "duration": "e.g. 1-3 months / 1 year / one-off",
   "eligibility": "Short career-stage + field requirements",

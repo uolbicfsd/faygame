@@ -94,7 +94,7 @@ footer{font-size:13px;color:var(--muted);max-width:75ch}
 <div class="wrap">
   <header>
     <h1>CS/AI Grant Atlas</h1>
-    <p class="lede">Seed grants, compute credits, travel grants and visiting programs, each re-checked on the funder's own pages for one profile: <b>Pakistani citizen, EE PhD under 2 years old, Associate Professor at a private transnational college, AI and robotics</b>. Every verdict carries the official wording it rests on. Verified <span id="gen">__DATE__</span>.</p>
+    <p class="lede">Postdoc fellowships, seed grants, compute credits, travel grants and visiting programs, each re-checked on the funder's own pages for one profile: <b>Pakistani citizen, EE PhD under 2 years old, Associate Professor at a private transnational college, AI and robotics</b>. Every verdict carries the official wording it rests on. Verified <span id="gen">__DATE__</span>.</p>
   </header>
 
   <div class="strip" id="chips" role="group" aria-label="Filter by category"></div>
@@ -120,8 +120,8 @@ footer{font-size:13px;color:var(--muted);max-width:75ch}
 
 <script>
 const DATA = __DATA__;
-const CATS = ["Seed/Small Research Grant","Industry Research Award","Compute/Cloud Credits","Travel Grant","Visiting/Mobility Grant"];
-const SHORT = {"Seed/Small Research Grant":"Seed grants","Industry Research Award":"Industry awards","Compute/Cloud Credits":"Compute credits","Travel Grant":"Travel grants","Visiting/Mobility Grant":"Visiting & mobility"};
+const CATS = ["Seed/Small Research Grant","Industry Research Award","Compute/Cloud Credits","Travel Grant","Visiting/Mobility Grant","Postdoctoral Fellowship"];
+const SHORT = {"Seed/Small Research Grant":"Seed grants","Industry Research Award":"Industry awards","Compute/Cloud Credits":"Compute credits","Travel Grant":"Travel grants","Visiting/Mobility Grant":"Visiting & mobility","Postdoctoral Fellowship":"Postdoc fellowships"};
 const today = new Date(); today.setHours(0,0,0,0);
 let cat = "", stars = new Set();
 try { stars = new Set(JSON.parse(localStorage.getItem("ga-stars") || "[]")); } catch(e) {}

@@ -26,6 +26,7 @@ CATEGORIES = [
     "Compute/Cloud Credits",
     "Travel Grant",
     "Visiting/Mobility Grant",
+    "Postdoctoral Fellowship",
 ]
 VERDICTS = ["Eligible", "Uncertain", "Not eligible"]
 FIELDS = [
@@ -48,6 +49,8 @@ def norm(s):
 
 def canon_category(c):
     c = (c or "").lower()
+    if "postdoc" in c:
+        return "Postdoctoral Fellowship"
     if "compute" in c or "cloud" in c or "credit" in c:
         return "Compute/Cloud Credits"
     if "industry" in c:
