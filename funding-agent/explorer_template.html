@@ -1,0 +1,171 @@
+<title>CS/AI Grant Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: ledger of calls. Summary strip -> filter bar -> one row per opportunity, deadline column on the right. */
+:root{
+  --bg:#f3f6f4; --surface:#ffffff; --fg:#14211d; --muted:#5b6b65; --line:#d9e2de;
+  --accent:#0b6e4f; --accent-soft:#e1f1ea; --warn:#9a5b00; --warn-soft:#fdf0d6;
+  --bad:#a3352a; --bad-soft:#f8e2de; --ok:#16774f; --ok-soft:#ddf2e6;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1714; --surface:#16211d; --fg:#e4ece8; --muted:#93a59e; --line:#2a3833;
+  --accent:#4cc79b; --accent-soft:#163a2e; --warn:#f0b75a; --warn-soft:#3a2c12;
+  --bad:#f08b7d; --bad-soft:#3d1f1b; --ok:#6fd8a8; --ok-soft:#173a2b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1714; --surface:#16211d; --fg:#e4ece8; --muted:#93a59e; --line:#2a3833;
+  --accent:#4cc79b; --accent-soft:#163a2e; --warn:#f0b75a; --warn-soft:#3a2c12;
+  --bad:#f08b7d; --bad-soft:#3d1f1b; --ok:#6fd8a8; --ok-soft:#173a2b; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+.wrap{max-width:1080px;margin:0 auto;padding-block:32px 64px;display:grid;gap:24px}
+h1{font:700 clamp(30px,5vw,46px)/1.05 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.lede{color:var(--muted);margin:8px 0 0;max-width:68ch}
+.lede b{color:var(--fg);font-weight:600}
+.strip{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--fg);
+  border-radius:999px;padding:6px 12px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip .n{font-family:var(--mono);color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.chip[aria-pressed="true"] .n{color:var(--bg)}
+.chip:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;align-items:end;
+  position:sticky;top:env(safe-area-inset-top, 0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top, 0px);z-index:10;background:var(--bg)}
+label{display:grid;gap:4px;font:500 11px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);min-width:0}
+input,select{font:15px var(--body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 10px;width:100%;min-width:0}
+.toggle{display:flex;gap:6px;align-items:center;text-transform:none;letter-spacing:0;font-size:14px;color:var(--fg);padding-bottom:9px;white-space:nowrap}
+.toggle input{width:auto}
+.count{font:13px var(--mono);color:var(--muted)}
+.list{display:grid;gap:10px}
+.row{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;
+  display:grid;grid-template-columns:1fr 170px;gap:6px 20px}
+.main{min-width:0;display:grid;gap:6px}
+.top{display:flex;gap:10px;align-items:flex-start}
+.name{font:600 17px/1.3 var(--body);margin:0;flex:1;min-width:0}
+.name a{color:var(--fg);text-decoration:none}
+.name a:hover{color:var(--accent);text-decoration:underline}
+.funder{color:var(--muted);font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font:500 12px var(--body);padding:2px 8px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
+.el-Yes{background:var(--ok-soft);color:var(--ok)}
+.el-Likely{background:var(--warn-soft);color:var(--warn)}
+.el-Check{background:var(--bad-soft);color:var(--bad)}
+.amt{font:500 14px var(--mono)}
+.tip{font-size:14px;margin:0}
+.tip::before{content:"Tip  ";font:600 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+details{font-size:13.5px;color:var(--muted)}
+summary{cursor:pointer;color:var(--accent);font-weight:500}
+details dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;margin:8px 0 0}
+details dt{font-weight:600;color:var(--fg)}
+details dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.side{display:grid;align-content:start;gap:6px;text-align:right;border-left:1px dashed var(--line);padding-left:16px}
+.dl-label{font:500 11px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.dl{font:500 14px var(--mono)}
+.days{font:600 12px var(--mono);justify-self:end;padding:2px 8px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
+.days.soon{background:var(--warn-soft);color:var(--warn)}
+.star{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:6px;cursor:pointer;font-size:16px;line-height:1;padding:4px 7px}
+.star[aria-pressed="true"]{color:var(--warn);border-color:var(--warn);background:var(--warn-soft)}
+.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
+footer{font-size:13px;color:var(--muted);max-width:75ch}
+@media (max-width:760px){
+  .bar{grid-template-columns:1fr 1fr;position:static}
+  .bar label:first-child{grid-column:1/-1}
+  .row{grid-template-columns:1fr}
+  .side{text-align:left;border-left:0;border-top:1px dashed var(--line);padding:10px 0 0;grid-template-columns:auto auto;justify-content:start;column-gap:12px;align-items:center}
+  .days{justify-self:start}
+}
+@media (prefers-reduced-motion:no-preference){.row{transition:border-color .15s}.row:hover{border-color:var(--accent)}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>CS/AI Grant Atlas</h1>
+    <p class="lede">Seed grants, industry awards, compute credits, travel grants and visiting programs for an <b>early-career CS/AI postdoc holding Pakistani citizenship</b>. Each entry was checked against the funder's own page for nationality rules. Verified <span id="gen">__DATE__</span>; confirm deadlines on the official link before you plan.</p>
+  </header>
+
+  <div class="strip" id="chips" role="group" aria-label="Filter by category"></div>
+
+  <div class="bar">
+    <label for="q">Search<input id="q" type="search" placeholder="Funder, topic, country…"></label>
+    <label for="elig">Pakistan eligible<select id="elig">
+      <option value="">Any</option><option value="Yes">Yes, confirmed</option>
+      <option value="Likely">Likely</option><option value="Check">Needs checking</option></select></label>
+    <label for="sort">Sort by<select id="sort">
+      <option value="deadline">Nearest deadline</option><option value="category">Category</option>
+      <option value="name">Program name</option></select></label>
+    <label class="toggle" for="starred"><input id="starred" type="checkbox"> Shortlist only</label>
+  </div>
+
+  <div class="count" id="count" aria-live="polite"></div>
+  <div class="list" id="list"></div>
+
+  <footer>
+    <p><b>Eligibility key.</b> Yes: Pakistani nationals explicitly eligible. Likely: open call with no nationality restriction found. Needs checking: depends on host or partner country, or the page was unclear. Your shortlist (☆) is saved in this browser only.</p>
+  </footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const CATS = ["Seed/Small Research Grant","Industry Research Award","Compute/Cloud Credits","Travel Grant","Visiting/Mobility Grant"];
+const SHORT = {"Seed/Small Research Grant":"Seed grants","Industry Research Award":"Industry awards","Compute/Cloud Credits":"Compute credits","Travel Grant":"Travel grants","Visiting/Mobility Grant":"Visiting & mobility"};
+const today = new Date(); today.setHours(0,0,0,0);
+let cat = "", stars = new Set();
+try { stars = new Set(JSON.parse(localStorage.getItem("ga-stars") || "[]")); } catch(e) {}
+const saveStars = () => { try { localStorage.setItem("ga-stars", JSON.stringify([...stars])); } catch(e) {} };
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const key = r => r.url || r.name;
+
+function dateOf(r){ const m=/(\d{4})-(\d{2})-(\d{2})/.exec(r.deadline||""); return m? new Date(+m[1],m[2]-1,+m[3]) : null; }
+function daysLeft(r){ const d=dateOf(r); return d? Math.round((d-today)/864e5) : null; }
+function rank(r){ const n=daysLeft(r); if(n!==null && n>=0) return n; if(/rolling/i.test(r.deadline||"")) return 5000; if(n!==null) return 9000; return 7000; }
+
+function chips(){
+  const all = [["", "All", DATA.length], ...CATS.map(c => [c, SHORT[c], DATA.filter(r=>r.category===c).length])];
+  $("chips").innerHTML = all.filter(a=>a[2]||!a[0]).map(([v,l,n]) =>
+    `<button class="chip" data-v="${esc(v)}" aria-pressed="${v===cat}">${esc(l)} <span class="n">${n}</span></button>`).join("");
+}
+$("chips").addEventListener("click", e => { const b=e.target.closest(".chip"); if(!b) return; cat=b.dataset.v; chips(); render(); });
+
+function render(){
+  const q=$("q").value.trim().toLowerCase(), el=$("elig").value, s=$("sort").value, only=$("starred").checked;
+  let rows = DATA.filter(r => (!cat||r.category===cat) && (!el||r.pakistan_eligible===el) && (!only||stars.has(key(r)))
+    && (!q || Object.values(r).join(" ").toLowerCase().includes(q)));
+  rows.sort(s==="name" ? (a,b)=>a.name.localeCompare(b.name)
+    : s==="category" ? (a,b)=>CATS.indexOf(a.category)-CATS.indexOf(b.category)||rank(a)-rank(b)
+    : (a,b)=>rank(a)-rank(b)||a.name.localeCompare(b.name));
+  $("count").textContent = `${rows.length} of ${DATA.length} opportunities`;
+  $("list").innerHTML = rows.length ? rows.map(r => {
+    const n = daysLeft(r);
+    const days = n===null ? "" : n<0 ? `<span class="days">passed, recurs</span>` : `<span class="days${n<=45?" soon":""}">${n} days left</span>`;
+    return `<article class="row">
+      <div class="main">
+        <div class="top"><h2 class="name"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
+          <button class="star" data-k="${esc(key(r))}" aria-pressed="${stars.has(key(r))}" aria-label="Add to shortlist">${stars.has(key(r))?"★":"☆"}</button></div>
+        <div class="funder">${esc(r.funder)}${r.funder_country?` · ${esc(r.funder_country)}`:""}</div>
+        <div class="tags"><span class="tag">${esc(SHORT[r.category]||r.category)}</span>
+          <span class="tag el-${esc(r.pakistan_eligible)}">Pakistan: ${esc(r.pakistan_eligible==="Check"?"needs checking":r.pakistan_eligible)}</span>
+          ${r.ai_fit?`<span class="tag">AI fit: ${esc(r.ai_fit)}</span>`:""}</div>
+        <div class="amt">${esc(r.amount)}${r.duration?` <span class="funder">· ${esc(r.duration)}</span>`:""}</div>
+        ${r.how_to_apply_tip?`<p class="tip">${esc(r.how_to_apply_tip)}</p>`:""}
+        <details><summary>Eligibility details</summary><dl>
+          <dt>Who can apply</dt><dd>${esc(r.eligibility)}</dd>
+          <dt>Nationality rule</dt><dd>${esc(r.eligibility_note)}</dd>
+          <dt>Official page</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a></dd>
+          <dt>Verified</dt><dd>${esc(r.verified_on)}</dd></dl></details>
+      </div>
+      <div class="side"><span class="dl-label">Deadline</span><span class="dl">${esc(r.deadline)}</span>${days}
+        <span class="dl-label">${esc(r.status)}</span></div>
+    </article>`; }).join("") : `<div class="empty">No opportunities match these filters. Clear the search or pick “All”.</div>`;
+}
+$("list").addEventListener("click", e => { const b=e.target.closest(".star"); if(!b) return;
+  const k=b.dataset.k; stars.has(k)?stars.delete(k):stars.add(k); saveStars(); render(); });
+["q","elig","sort","starred"].forEach(id => $(id).addEventListener("input", render));
+chips(); render();
+</script>
