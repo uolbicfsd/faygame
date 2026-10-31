@@ -56,6 +56,12 @@ input,select{font:15px var(--body);color:var(--fg);background:var(--surface);bor
 .el-Yes{background:var(--ok-soft);color:var(--ok)}
 .el-Likely{background:var(--warn-soft);color:var(--warn)}
 .el-Check{background:var(--bad-soft);color:var(--bad)}
+.v-Eligible{background:var(--ok-soft);color:var(--ok)}
+.v-Uncertain{background:var(--warn-soft);color:var(--warn)}
+.v-Not{background:var(--bad-soft);color:var(--bad)}
+.row.no{opacity:.72}
+blockquote{margin:2px 0 0;padding-left:10px;border-left:2px solid var(--line);font-style:italic;white-space:pre-line}
+.ask{color:var(--fg)}
 .amt{font:500 14px var(--mono)}
 .tip{font-size:14px;margin:0}
 .tip::before{content:"Tip  ";font:600 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
@@ -86,18 +92,18 @@ footer{font-size:13px;color:var(--muted);max-width:75ch}
 <div class="wrap">
   <header>
     <h1>CS/AI Grant Atlas</h1>
-    <p class="lede">Seed grants, industry awards, compute credits, travel grants and visiting programs for an <b>early-career CS/AI postdoc holding Pakistani citizenship</b>. Each entry was checked against the funder's own page for nationality rules. Verified <span id="gen">__DATE__</span>; confirm deadlines on the official link before you plan.</p>
+    <p class="lede">Seed grants, compute credits, travel grants and visiting programs, each re-checked on the funder's own pages for one profile: <b>Pakistani citizen, EE PhD under 2 years old, Associate Professor at a private transnational college, AI and robotics</b>. Every verdict carries the official wording it rests on. Verified <span id="gen">__DATE__</span>.</p>
   </header>
 
   <div class="strip" id="chips" role="group" aria-label="Filter by category"></div>
 
   <div class="bar">
     <label for="q">Search<input id="q" type="search" placeholder="Funder, topic, country…"></label>
-    <label for="elig">Pakistan eligible<select id="elig">
-      <option value="">Any</option><option value="Yes">Yes, confirmed</option>
-      <option value="Likely">Likely</option><option value="Check">Needs checking</option></select></label>
+    <label for="elig">Verdict for you<select id="elig">
+      <option value="">Any</option><option value="Eligible">Eligible</option>
+      <option value="Uncertain">Uncertain, ask funder</option><option value="Not eligible">Not eligible</option></select></label>
     <label for="sort">Sort by<select id="sort">
-      <option value="deadline">Nearest deadline</option><option value="category">Category</option>
+      <option value="deadline">Verdict, then deadline</option><option value="category">Category</option>
       <option value="name">Program name</option></select></label>
     <label class="toggle" for="starred"><input id="starred" type="checkbox"> Shortlist only</label>
   </div>
@@ -106,7 +112,7 @@ footer{font-size:13px;color:var(--muted);max-width:75ch}
   <div class="list" id="list"></div>
 
   <footer>
-    <p><b>Eligibility key.</b> Yes: Pakistani nationals explicitly eligible. Likely: open call with no nationality restriction found. Needs checking: depends on host or partner country, or the page was unclear. Your shortlist (☆) is saved in this browser only.</p>
+    <p><b>Verdict key.</b> Eligible: the official wording covers every condition that applies to you. Uncertain: the official wording is silent on a decisive point, so send the suggested question to the funder first. Not eligible: an official sentence excludes you; kept for reference. Funders make the final eligibility decision. Your shortlist (☆) is saved in this browser only.</p>
   </footer>
 </div>
 
@@ -124,7 +130,8 @@ const key = r => r.url || r.name;
 
 function dateOf(r){ const m=/(\d{4})-(\d{2})-(\d{2})/.exec(r.deadline||""); return m? new Date(+m[1],m[2]-1,+m[3]) : null; }
 function daysLeft(r){ const d=dateOf(r); return d? Math.round((d-today)/864e5) : null; }
-function rank(r){ const n=daysLeft(r); if(n!==null && n>=0) return n; if(/rolling/i.test(r.deadline||"")) return 5000; if(n!==null) return 9000; return 7000; }
+const VORD={"Eligible":0,"Uncertain":1,"Not eligible":2};
+function rank(r){ const n=daysLeft(r); let k; if(n!==null && n>=0) k=n; else if(/rolling/i.test(r.deadline||"")) k=5000; else if(n!==null) k=9000; else k=7000; return VORD[r.verdict]*1e5+k; }
 
 function chips(){
   const all = [["", "All", DATA.length], ...CATS.map(c => [c, SHORT[c], DATA.filter(r=>r.category===c).length])];
@@ -135,7 +142,7 @@ $("chips").addEventListener("click", e => { const b=e.target.closest(".chip"); i
 
 function render(){
   const q=$("q").value.trim().toLowerCase(), el=$("elig").value, s=$("sort").value, only=$("starred").checked;
-  let rows = DATA.filter(r => (!cat||r.category===cat) && (!el||r.pakistan_eligible===el) && (!only||stars.has(key(r)))
+  let rows = DATA.filter(r => (!cat||r.category===cat) && (!el||r.verdict===el) && (!only||stars.has(key(r)))
     && (!q || Object.values(r).join(" ").toLowerCase().includes(q)));
   rows.sort(s==="name" ? (a,b)=>a.name.localeCompare(b.name)
     : s==="category" ? (a,b)=>CATS.indexOf(a.category)-CATS.indexOf(b.category)||rank(a)-rank(b)
@@ -144,24 +151,26 @@ function render(){
   $("list").innerHTML = rows.length ? rows.map(r => {
     const n = daysLeft(r);
     const days = n===null ? "" : n<0 ? `<span class="days">passed, recurs</span>` : `<span class="days${n<=45?" soon":""}">${n===0?"Closes today":n===1?"1 day left":n+" days left"}</span>`;
-    return `<article class="row">
+    return `<article class="row${r.verdict==="Not eligible"?" no":""}">
       <div class="main">
         <div class="top"><h2 class="name"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
           <button class="star" data-k="${esc(key(r))}" aria-pressed="${stars.has(key(r))}" aria-label="Add to shortlist">${stars.has(key(r))?"★":"☆"}</button></div>
         <div class="funder">${esc(r.funder)}${r.funder_country?` · ${esc(r.funder_country)}`:""}</div>
-        <div class="tags"><span class="tag">${esc(SHORT[r.category]||r.category)}</span>
-          <span class="tag el-${esc(r.pakistan_eligible)}">Pakistan: ${esc(r.pakistan_eligible==="Check"?"needs checking":r.pakistan_eligible)}</span>
+        <div class="tags"><span class="tag v-${esc((r.verdict||"").split(" ")[0])}">${esc(r.verdict)}</span><span class="tag">${esc(SHORT[r.category]||r.category)}</span>
           ${r.ai_fit?`<span class="tag">AI fit: ${esc(r.ai_fit)}</span>`:""}</div>
         <div class="amt">${esc(r.amount)}${r.duration?` <span class="funder">· ${esc(r.duration)}</span>`:""}</div>
-        ${r.how_to_apply_tip?`<p class="tip">${esc(r.how_to_apply_tip)}</p>`:""}
-        <details><summary>Eligibility details</summary><dl>
-          <dt>Who can apply</dt><dd>${esc(r.eligibility)}</dd>
-          <dt>Nationality rule</dt><dd>${esc(r.eligibility_note)}</dd>
-          <dt>Official page</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a></dd>
+        ${r.verdict_reason?`<p class="tip" style="margin:0"><b>For you:</b> ${esc(r.verdict_reason)}</p>`:""}
+        ${r.ask_funder?`<p class="tip ask"><b>Ask the funder:</b> ${esc(r.ask_funder)}</p>`:""}
+        <details><summary>Official wording and sources</summary><dl>
+          <dt>Eligibility</dt><dd><blockquote>${esc(r.eligibility_quote||r.eligibility_note)}</blockquote></dd>
+          <dt>Deadline</dt><dd><blockquote>${esc(r.deadline_quote||r.deadline)}</blockquote></dd>
+          ${r.how_to_apply_tip?`<dt>Tip</dt><dd>${esc(r.how_to_apply_tip)}</dd>`:""}
+          <dt>Pages checked</dt><dd>${(r.evidence_urls||r.url).split(/\n/).filter(Boolean).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`).join("<br>")}</dd>
           <dt>Verified</dt><dd>${esc(r.verified_on)}</dd></dl></details>
       </div>
-      <div class="side"><span class="dl-label">Deadline</span><span class="dl">${esc(r.deadline)}</span>${days}
-        <span class="dl-label">${esc(r.status)}</span></div>
+      <div class="side"><span class="dl-label">Last date to apply</span><span class="dl">${esc(r.deadline)}</span>${days}
+        ${r.last_known_deadline&&r.deadline!==r.last_known_deadline?`<span class="dl-label">Last call: ${esc(r.last_known_deadline)}</span>`:""}
+        <span class="dl-label">${esc(r.call_status||r.status)}</span></div>
     </article>`; }).join("") : `<div class="empty">No opportunities match these filters. Clear the search or pick “All”.</div>`;
 }
 $("list").addEventListener("click", e => { const b=e.target.closest(".star"); if(!b) return;
