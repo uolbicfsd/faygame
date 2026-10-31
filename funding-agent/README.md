@@ -19,10 +19,11 @@ In Claude Code, in this repo: **`/find-research-funding`** (or "refresh my fundi
 To rebuild outputs only after hand-editing the JSON: `python3 funding-agent/build_outputs.py`.
 
 ## Last run: 2026-10-31
-88 unique opportunities. Seed grants 25 · Industry awards 4 · Compute credits 13 · Travel grants 19 · Visiting/mobility 27.
+160 unique opportunities: Postdoc fellowships 81 · Seed grants 25 · Industry awards 4 · Compute credits 13 ·
+Travel grants 19 · Visiting/mobility 18.
 
-Deep re-verification (`funding-verifier`, 6 parallel batches, official pages only) against the
-profile in `profile.md`: **34 Eligible · 42 Uncertain (ask-funder question given) · 12 Not eligible.**
+Verified on official pages only against the profile in `profile.md`:
+**59 Eligible · 72 Uncertain (ask-funder question given) · 29 Not eligible.**
 Each row carries the official eligibility and deadline wording plus the pages checked.
 Pipeline: scouts write `data/raw_*.json` → verifiers write `data/verified_*.json` → `build_outputs.py`
 (uses verified files when present).

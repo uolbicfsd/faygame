@@ -29,35 +29,6 @@
     "verified_on": "2026-10-31"
   },
   {
-    "name": "Eric & Wendy Schmidt AI in Science Postdoctoral Fellowship (NTU Singapore host; programme across 9 partner universities)",
-    "funder": "Schmidt Sciences, via partner universities (open call currently at Nanyang Technological University)",
-    "funder_country": "International (US funder; host Singapore)",
-    "category": "Postdoctoral Fellowship",
-    "amount": "Competitive salary and benefits plus travel allowance (no figure on NTU page)",
-    "duration": "Up to 2 years",
-    "eligibility": "PhD within 3 years in a NON-computer-science field; research applying AI to engineering, natural or mathematical sciences",
-    "pakistan_eligible": "Likely",
-    "eligibility_note": "NTU page states no nationality restriction. Other partner hosts (Toronto, UCSD, Chicago, Cornell, Michigan, Imperial, Oxford, NUS) run their own calls; Toronto/UCSD 2027 cohorts closed 5 Oct 2026.",
-    "deadline": "2026-12-31",
-    "deadline_quote": "Submission Deadline: 31 Dec 2026, 2359hr (Singapore Time, UTC/GMT+8)",
-    "last_known_deadline": "",
-    "call_status": "Open now",
-    "opens_on": "",
-    "status": "Open",
-    "ai_fit": "High",
-    "url": "https://ntu.edu.sg/research/research-careers/the-eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellowship",
-    "how_to_apply_tip": "Frame your robotics/AI work as AI applied to an engineering or science domain problem (the programme funds AI-for-science, not core ML), and stress that your PhD is in EE, not CS.",
-    "verdict": "Eligible",
-    "verdict_reason": "Your EE PhD (non-CS) obtained within 3 years meets both stated conditions, and AI applied to engineering (robotics) is in scope; the NTU call states no nationality, age or employer restriction.",
-    "eligibility_quote": "\"within 3 years of having obtained PhD degree or equivalent degree in non-computer science areas\"; \"Only research on applying AI techniques to engineering, natural sciences and mathematical sciences will be supported.\"",
-    "ask_funder": "",
-    "evidence_urls": [
-      "https://ntu.edu.sg/research/research-careers/the-eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellowship",
-      "https://www.schmidtsciences.org/schmidt-ai-in-science-postdocs/"
-    ],
-    "verified_on": "2026-10-31"
-  },
-  {
     "name": "Vector Distinguished Postdoctoral Fellowship",
     "funder": "Vector Institute for Artificial Intelligence (Toronto)",
     "funder_country": "Canada",
