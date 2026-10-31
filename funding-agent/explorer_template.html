@@ -61,7 +61,9 @@ input,select{font:15px var(--body);color:var(--fg);background:var(--surface);bor
 .v-Not{background:var(--bad-soft);color:var(--bad)}
 .row.no{opacity:.72}
 blockquote{margin:2px 0 0;padding-left:10px;border-left:2px solid var(--line);font-style:italic;white-space:pre-line}
-.ask{color:var(--fg)}
+.why{font-size:14px;margin:0}
+.why b{color:var(--accent)}
+.ask b{color:var(--warn)}
 .amt{font:500 14px var(--mono)}
 .tip{font-size:14px;margin:0}
 .tip::before{content:"Tip  ";font:600 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
@@ -159,8 +161,8 @@ function render(){
         <div class="tags"><span class="tag v-${esc((r.verdict||"").split(" ")[0])}">${esc(r.verdict)}</span><span class="tag">${esc(SHORT[r.category]||r.category)}</span>
           ${r.ai_fit?`<span class="tag">AI fit: ${esc(r.ai_fit)}</span>`:""}</div>
         <div class="amt">${esc(r.amount)}${r.duration?` <span class="funder">· ${esc(r.duration)}</span>`:""}</div>
-        ${r.verdict_reason?`<p class="tip" style="margin:0"><b>For you:</b> ${esc(r.verdict_reason)}</p>`:""}
-        ${r.ask_funder?`<p class="tip ask"><b>Ask the funder:</b> ${esc(r.ask_funder)}</p>`:""}
+        ${r.verdict_reason?`<p class="why"><b>For you:</b> ${esc(r.verdict_reason)}</p>`:""}
+        ${r.ask_funder?`<p class="why ask"><b>Ask the funder:</b> ${esc(r.ask_funder)}</p>`:""}
         <details><summary>Official wording and sources</summary><dl>
           <dt>Eligibility</dt><dd><blockquote>${esc(r.eligibility_quote||r.eligibility_note)}</blockquote></dd>
           <dt>Deadline</dt><dd><blockquote>${esc(r.deadline_quote||r.deadline)}</blockquote></dd>

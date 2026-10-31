@@ -19,8 +19,13 @@ In Claude Code, in this repo: **`/find-research-funding`** (or "refresh my fundi
 To rebuild outputs only after hand-editing the JSON: `python3 funding-agent/build_outputs.py`.
 
 ## Last run: 2026-10-31
-88 unique opportunities (44 confirmed open to Pakistani nationals, 25 likely, 19 to check):
-Seed grants 25 · Industry awards 4 · Compute credits 13 · Travel grants 19 · Visiting/mobility 27.
+88 unique opportunities. Seed grants 25 · Industry awards 4 · Compute credits 13 · Travel grants 19 · Visiting/mobility 27.
+
+Deep re-verification (`funding-verifier`, 6 parallel batches, official pages only) against the
+profile in `profile.md`: **34 Eligible · 42 Uncertain (ask-funder question given) · 12 Not eligible.**
+Each row carries the official eligibility and deadline wording plus the pages checked.
+Pipeline: scouts write `data/raw_*.json` → verifiers write `data/verified_*.json` → `build_outputs.py`
+(uses verified files when present).
 
 Removed after verification: PSF Travel Grant (suspended June 2026), TWAS Research Grants (no 2026 call),
 NVIDIA Academic Grants (paused), Microsoft AFMR (ended), Pak-Turk Mobility (suspended), Sony Research
