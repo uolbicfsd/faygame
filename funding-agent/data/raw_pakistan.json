@@ -153,23 +153,6 @@
     "verified_on": "2026-10-31"
   },
   {
-    "name": "PSF Travel Grant for International Conferences",
-    "funder": "Pakistan Science Foundation (PSF)",
-    "funder_country": "Pakistan",
-    "category": "Travel Grant",
-    "amount": "See website (financial assistance toward participation)",
-    "duration": "One-off",
-    "eligibility": "Regular/full-time employee of a government-sector R&D organization or government/chartered university (or PhD student post-coursework); paper accepted for ORAL presentation; science/engineering disciplines; hybrid attendance allowed",
-    "pakistan_eligible": "Yes",
-    "eligibility_note": "Domestic scheme for Pakistani researchers; research must have been done within Pakistan; co-funded requests preferred",
-    "deadline": "Rolling",
-    "status": "Rolling",
-    "ai_fit": "High",
-    "url": "https://psf.gov.pk/pnd_travel_grants.aspx",
-    "how_to_apply_tip": "Apply at least 45 days before the event, with full paper and plagiarism report (<20% similarity); cannot double-dip with HEC for the same paper.",
-    "verified_on": "2026-10-31"
-  },
-  {
     "name": "PSF Research Support Programme (Mathematics & Computer Sciences)",
     "funder": "Pakistan Science Foundation (PSF)",
     "funder_country": "Pakistan",

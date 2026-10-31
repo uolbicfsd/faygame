@@ -143,7 +143,7 @@ function render(){
   $("count").textContent = `${rows.length} of ${DATA.length} opportunities`;
   $("list").innerHTML = rows.length ? rows.map(r => {
     const n = daysLeft(r);
-    const days = n===null ? "" : n<0 ? `<span class="days">passed, recurs</span>` : `<span class="days${n<=45?" soon":""}">${n} days left</span>`;
+    const days = n===null ? "" : n<0 ? `<span class="days">passed, recurs</span>` : `<span class="days${n<=45?" soon":""}">${n===0?"Closes today":n===1?"1 day left":n+" days left"}</span>`;
     return `<article class="row">
       <div class="main">
         <div class="top"><h2 class="name"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
