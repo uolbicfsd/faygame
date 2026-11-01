@@ -2,7 +2,8 @@
 
 - **Citizenship / residence:** Pakistani citizen, living and working in Pakistan
 - **Gender / age band:** Male, 36–45
-- **PhD:** Electrical Engineering, awarded within the last 2 years (i.e. after Nov 2024)
+- **PhD:** Electrical Engineering (Robotics Engineering), University of Lahore — defended Dec 2023,
+  **degree awarded Jan 2024** (≈ 2 years 10 months before Nov 2026)
 - **Research area:** AI and Robotics (teaching and research experience in both)
 - **Current position:** Associate Professor at Beaconhouse International College (BIC), Pakistan — a
   **private transnational higher-education (TNE) college** delivering UK degrees
@@ -20,11 +21,12 @@
 ## Eligibility traps to check for this profile
 1. Institution type: does the scheme require a public / HEC-recognised / degree-awarding
    university, or a "university faculty" PI? A private TNE college may not qualify.
-2. Years since PhD: < 2 years (Fulbright and some "experienced researcher" calls need more).
+2. Years since PhD: award Jan 2024 → ~2.8 years now (~3.2–3.5 years by typical 2027 deadlines/start dates).
+   Check exact cut-off dates: "within 2 years" FAILS; "within 3 years" depends on the reference date; ">= 2 years" PASSES.
 3. Age 36–45: excludes "≤ 35" schemes.
 4. Male: excludes women-only schemes.
 5. Nationality: Pakistan must be explicitly allowed or not excluded.
 6. Postdoc mobility rules: e.g. "must not have resided in host country > 12 months in last 3 years"
-   (fine — has lived in Pakistan), "must move institution", "PhD within N years" (< 2 years: fine),
+   (fine — has lived in Pakistan), "must move institution", "PhD within N years" (award Jan 2024 — compute against the call's reference date),
    age caps (36–45 fails "≤ 35"), and whether a permanent Associate Professor may hold a postdoc
    fellowship (some require no permanent post, or allow leave of absence).
