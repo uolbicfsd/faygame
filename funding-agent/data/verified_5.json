@@ -45,7 +45,7 @@
     "ai_fit": "Medium",
     "url": "https://www.hec.gov.pk/english/scholarshipsgrants/postdoc/Pages/default.aspx",
     "how_to_apply_tip": "Secure a placement letter from a QS top-200 supervisor (dated within 6 months) and a 9-month leave NOC before the portal (pdfp.hec.gov.pk) opens.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 62,
     "deadline_quote": "Portal \"will be opened for a specific duration according to Pakistan Standard Time (PST) and the last date will not be extended in any case.\" The official programme page gives no current batch dates.",
@@ -53,13 +53,10 @@
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Not eligible",
-    "verdict_reason": "Applicants must be regular employees of an HEC-recognised university or degree-awarding institution, and BIC is a private TNE college, not a DAI. A foreign PhD also needs 5 years of recognised work in Pakistan after the PhD. The last batch date (2025-10-30) appears only in secondary sources, not on HEC's pages.",
+    "verdict_reason": "You must be a regular employee of an HEC-recognised university or degree-awarding institution, and BIC is a private TNE college, not a DAI. (The 5-years-after-foreign-PhD rule does not apply to your University of Lahore PhD of Jan 2024.) The last batch date (2025-10-30) appears only in secondary sources, not on HEC's pages.",
     "eligibility_quote": "Be a regular employee of public/private sector HEC recognized university/degree awarding institution or public sector R&D organization (recognized by Pakistan Council of Science & Technology). | Possess five years' recognized work experience in Pakistan after completion of foreign Ph.D. | Not be more than 45 years of age on the date mentioned in the advertisement.",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://www.hec.gov.pk/english/scholarshipsgrants/postdoc/Pages/default.aspx",
-      "https://www.hec.gov.pk/english/scholarshipsgrants/postdoc/Pages/Eligibility-Criteria.aspx"
-    ]
+    "evidence_urls": "https://www.hec.gov.pk/english/scholarshipsgrants/postdoc/Pages/default.aspx\nhttps://www.hec.gov.pk/english/scholarshipsgrants/postdoc/Pages/Eligibility-Criteria.aspx"
   },
   {
     "name": "Talented Young Scientist Program (TYSP)",
@@ -76,7 +73,7 @@
     "ai_fit": "Medium",
     "url": "https://tysp.cstec.org.cn/",
     "how_to_apply_tip": "The Chinese host institution registers on the TYSP platform and submits your information – find a host by December for the Jan-Mar call.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 63,
     "deadline_quote": "2026 TYSP call notice (dated 2026-01-16) sets the application deadline as 16 March 2026 (system notification time governs).",
@@ -84,9 +81,9 @@
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Uncertain",
-    "verdict_reason": "The official guide requires the applicant to be under 45, to hold a doctorate and to have at least 5 years of research experience. It is unclear whether pre-PhD research counts toward the 5 years, since the profile's PhD is under 2 years old. The age limit is also borderline for a 45-year-old. The country list on the official page is garbled and could not be read.",
+    "verdict_reason": "The official guide requires applicants to be under 45, hold a doctorate and have at least 5 years of research experience. Your PhD was awarded in January 2024, under 3 years ago, so you meet the 5 years only if research before the PhD counts. The age limit is also borderline if you are 45. The country list on the official page is garbled and could not be read.",
     "eligibility_quote": "(Implementation guide, translated) Under 45 years old ... at least 5 years of research experience and a doctoral degree (具有博士学位) ... currently working abroad full-time. Funding 20,000 RMB per month pre-tax for 3, 6 or 12 months.",
-    "ask_funder": "Does the 'at least 5 years of research experience' rule count research done before the doctorate (my PhD was awarded in 2025)? Is Pakistan an eligible country, and is the age limit 'under 45' applied at the application date?",
+    "ask_funder": "Does the 'at least 5 years of research experience' rule count research done before the doctorate? My PhD was awarded in January 2024. Is Pakistan an eligible country, and is the 'under 45' age limit applied at the application date?",
     "evidence_urls": [
       "https://tysp.cstec.org.cn/",
       "https://tysp.cstec.org.cn/Webpages/viewdetail.aspx?id=4857422444",
@@ -108,7 +105,7 @@
     "ai_fit": "Medium",
     "url": "https://sindhhec.gov.pk/wp-content/uploads/2026/03/Advertisement-International-Postdoc-Phase-II.pdf",
     "how_to_apply_tip": "Arrange the host placement letter first; post the hard copy and email the PDF to ad.qa@sindhhec.gov.pk with all NOCs.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 64,
     "deadline_quote": "LAST DATE OF APPLICATION SUBMISSION: 31ST MARCH 2026",
@@ -116,12 +113,10 @@
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Not eligible",
-    "verdict_reason": "The scheme is limited to regular faculty of universities/DAIs or HEIs in Sindh who hold Sindh domicile and a PRC. BIC is not a university or DAI, and Sindh domicile is not in the profile. The scheme also prefers 5 years of experience in Sindh after the PhD.",
+    "verdict_reason": "The scheme is limited to regular faculty of universities/DAIs or HEIs in Sindh who hold Sindh domicile and a PRC. BIC is not a university or DAI, and the profile does not list Sindh domicile. The scheme also prefers 5 years of post-PhD experience in Sindh, and your PhD was awarded only in January 2024.",
     "eligibility_quote": "Applications are invited from the regular faculty members of Public and Private sector universities/DAIs and professionals of regulatory bodies of HE in Sindh ... Be a regular employee of public/private sector universities/HEIs in Sindh. ... Hold Domicile & Permanent Residence Certificate (PRC- Form C) of the Sindh Province.",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://sindhhec.gov.pk/wp-content/uploads/2026/03/Advertisement-International-Postdoc-Phase-II.pdf"
-    ]
+    "evidence_urls": "https://sindhhec.gov.pk/wp-content/uploads/2026/03/Advertisement-International-Postdoc-Phase-II.pdf"
   },
   {
     "name": "PERIDOT – Pakistan-France Hubert Curien Partnership (researcher mobility)",
@@ -170,20 +165,18 @@
     "ai_fit": "Medium",
     "url": "https://www.usefp.org/scholarships/fulbright-scholar.cfm",
     "how_to_apply_tip": "Start emailing US hosts in summer 2027: an invitation letter must be in the application, along with 3 references.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 66,
     "deadline_quote": "Status: Closed — Deadline: October 28, 2026",
     "last_known_deadline": "2026-10-28",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
-    "verdict": "Not eligible",
-    "verdict_reason": "The profile's PhD was awarded within the last 2 years, which the page explicitly excludes. The applicant could become eligible in a cycle that starts after the PhD is more than 2 years old.",
-    "eligibility_quote": "Applicants who completed their Ph.D. within the last two years ... are not eligible.",
+    "verdict": "Eligible",
+    "verdict_reason": "The two-year exclusion no longer applies to you. Your PhD was defended in December 2023 and awarded in January 2024, so it was more than 2 years old at the 28 Oct 2026 deadline and will be about 3 years 9 months old at a similar 2027 deadline. You are a Pakistani citizen in Pakistan, and EE/robotics is an eligible field. No institution-type rule applies. You remain eligible only if you have not been in the US for research or long-term study in the last five years, hold no US nationality, and have no spouse, parent or adult child who is a US citizen or permanent resident. You also need an invitation letter from a US university. The 2026 round closed on 28 Oct 2026, so plan for the next cycle.",
+    "eligibility_quote": "Every applicant must either hold Ph.D. or terminal degree in his/her field. ... Scholars and professionals from all disciplines are welcome to apply, with the exception of clinical medicine. ... Not eligible: Persons who have completed their Ph.D. within the last two years ... who have been to the U.S. for research or other long term educational opportunities within the last five years. Persons with a dual U.S./Pakistan nationality ... who have a spouse, parent or child over 18 year of age who is U.S. citizen or permanent resident. ... you must have at least one invitation letter from the U.S. university",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://www.usefp.org/scholarships/fulbright-scholar.cfm"
-    ]
+    "evidence_urls": "https://www.usefp.org/scholarships/fulbright-scholar.cfm"
   },
   {
     "name": "TÜBİTAK 2221 Fellowships for Visiting Scientists and Scientists on Sabbatical Leave",
@@ -200,7 +193,7 @@
     "ai_fit": "High",
     "url": "https://tubitak.gov.tr/en/scholarships/doktora-sonrasi/arastirma-burs-programlari/2221-fellowships-visiting-scientists-and-scientists-sabbatical-leave",
     "how_to_apply_tip": "Four calls a year (next window 2-30 Nov 2026). Register on ARBİS with your passport name; the Turkish host writes the proposal (in Turkish) and submits it.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "visiting",
     "id": 67,
     "deadline_quote": "4th term: opens 02 Nov 2026, closes 30 Nov 2026. The system will be closed to applications at 17:30 on the application deadline.",
@@ -208,12 +201,10 @@
     "call_status": "Opens later",
     "opens_on": "2026-11-02",
     "verdict": "Uncertain",
-    "verdict_reason": "No nationality restriction is stated, and the Turkish host applies. However, PhD holders in doctoral-level posts abroad must have worked at a university, research centre or company for at least 4 years. The page does not say whether those years must come after the PhD, and the profile's PhD is under 2 years old.",
+    "verdict_reason": "No nationality restriction is stated, and the Turkish host applies. However, visiting scientists in doctoral-level posts abroad must have at least 4 years of work at a university, research centre or company by the application date. If those years must come after the PhD, you fail: your PhD was awarded in January 2024, which gives only about 2 years 10 months by 30 Nov 2026 and about 3 years 11 months even at the last 2027 call. If your lecturing before the PhD counts, you may pass.",
     "eligibility_quote": "Scientists who hold a doctorate and work abroad in a position requiring one must have been working in a university, research center, or private sector for at least 4 years as of the application date. | The host scientist must be a full-time staff member of the host institution in Türkiye and hold at least a doctoral degree.",
     "ask_funder": "Does the 4-year work-experience rule for visiting scientists count academic employment before the PhD (for example, as a lecturer), or only years after the doctorate? Does employment at a private TNE college in Pakistan count as a 'university'?",
-    "evidence_urls": [
-      "https://tubitak.gov.tr/en/scholarships/doktora-sonrasi/arastirma-burs-programlari/2221-fellowships-visiting-scientists-and-scientists-sabbatical-leave"
-    ]
+    "evidence_urls": "https://tubitak.gov.tr/en/scholarships/doktora-sonrasi/arastirma-burs-programlari/2221-fellowships-visiting-scientists-and-scientists-sabbatical-leave"
   },
   {
     "name": "Ernst Mach Grant – Worldwide",
@@ -322,7 +313,7 @@
     "ai_fit": "Medium",
     "url": "https://twas.org/opportunity/twas-fapesp-postdoctoral-fellowship-programme-developing-countries",
     "how_to_apply_tip": "Supervisors register expressions of interest by 1 Nov 2026 and the list is published 1 Dec 2026; pick a CS/engineering supervisor from that list, who submits the full proposal by 1 Apr 2027.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "visiting",
     "id": 71,
     "deadline_quote": "Deadline for submission of proposals: 01/04/2027 (expression-of-interest deadline for supervisors 01/11/2026; list of potential supervisors announced 01/12/2026)",
@@ -330,14 +321,10 @@
     "call_status": "Open now",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "Pakistan is on the TWAS developing-countries list, the PhD is within 7 years, there is no age limit and engineering is covered. The candidate must not hold a Brazilian or developed-country residence visa. This is a 12-month, full-stipend postdoc that requires leave, which is a format the profile does not want.",
+    "verdict_reason": "Pakistan is on the TWAS developing-countries list and your PhD (awarded Jan 2024) is well within the 7-year limit; there is no age limit and engineering is covered. You must not hold a Brazilian or developed-country residence visa. This is a 12-month full-stipend postdoc that requires leave from BIC.",
     "eligibility_quote": "a) Be a permanent resident and natural-born of one of the developing countries, listed in https://twas.org/subset/all-developing-countries; b) Not have a temporary or permanent residence visa in Brazil or in any developed country; ... d) Hold a doctorate in a natural, applied or social sciences area; e) Apply for the Scholarship within seven (07) years after obtaining the doctorate",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://twas.org/opportunity/twas-fapesp-postdoctoral-fellowship-programme-developing-countries",
-      "https://twas.org/sites/default/files/fellowship/minuta_edital_unesco-twas_2026_final_en_2026.pdf",
-      "https://twas.org/subset/all-developing-countries"
-    ]
+    "evidence_urls": "https://twas.org/opportunity/twas-fapesp-postdoctoral-fellowship-programme-developing-countries\nhttps://twas.org/sites/default/files/fellowship/minuta_edital_unesco-twas_2026_final_en_2026.pdf\nhttps://twas.org/subset/all-developing-countries"
   },
   {
     "name": "MSCA Staff Exchanges 2027 (HORIZON-MSCA-2027-SE-01-01)",
@@ -387,7 +374,7 @@
     "ai_fit": "High",
     "url": "https://www.jsps.go.jp/english/e-inv/",
     "how_to_apply_tip": "The Japanese host submits (forms S-1 to S-3); host institutions set internal deadlines up to a month earlier than JSPS's 23 Apr 2027 round (arrival Oct 2027–Mar 2028). Being an assistant professor in Pakistan meets the career rule.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "visiting",
     "id": 73,
     "deadline_quote": "2nd recruitment (Short-term only): Application deadline (from host institution to JSPS) April 23, 2027 (by 5 p.m. (JST)); arrival October 1, 2027 - March 31, 2028. Host institutions may set deadlines more than one month earlier.",
@@ -395,7 +382,7 @@
     "call_status": "Opens later",
     "opens_on": "",
     "verdict": "Uncertain",
-    "verdict_reason": "Pakistan has diplomatic relations with Japan, and Associate Professor is an equivalent position. However, the rule requires a post at 'a university or research institution in a foreign country', and BIC is a private TNE college. The 6-years-since-PhD alternative route does not apply because the PhD is under 2 years old.",
+    "verdict_reason": "Pakistan has diplomatic relations with Japan, and Associate Professor counts as an equivalent position. However, the rule requires a post at 'a university or research institution in a foreign country', and BIC is a private TNE college. The other route, six or more years since PhD, does not help you: your PhD was awarded in January 2024, about 3.3 years before the April 2027 round.",
     "eligibility_quote": "(1) Be a citizen or permanent resident of a country that has diplomatic relations with Japan. (2) Be a full-time researchers or person with full-time researcher status at a university or research institution in a foreign country and have a position equivalent to a professor, associate professor or assistant professor in Japan ... Researchers of other status may apply if it has been six years or longer since they obtained their doctoral degree",
     "ask_funder": "Does JSPS accept a full-time Associate Professor at a private transnational higher-education college in Pakistan (delivering University of Essex and LJMU degrees) as holding a position 'at a university or research institution in a foreign country'?",
     "evidence_urls": [
@@ -420,7 +407,7 @@
     "ai_fit": "High",
     "url": "https://fellowship.ercim.eu/",
     "how_to_apply_tip": "Register on the site for round alerts and contact a researcher at an ERCIM member institute (e.g., Inria, CWI, SINTEF) before applying.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "visiting",
     "id": 74,
     "deadline_quote": "Next deadline for application: 30 Apr 2027",
@@ -428,7 +415,7 @@
     "call_status": "Opens later",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "The fellowship is open to PhD holders worldwide who received the PhD in the last 8 years, with no age or institution limits. The host cannot share your nationality. This is a 12-month, full-stipend postdoc, a format the profile does not want.",
+    "verdict_reason": "The fellowship is open to PhD holders worldwide who got the PhD in the last 8 years. Your degree was awarded in January 2024, about 3 years before the April 2027 deadline, so you meet this easily. There are no age or institution limits, but the host cannot share your nationality. This is a 12-month, full-stipend postdoc, a format your profile does not want.",
     "eligibility_quote": "The Fellowships are available for PhD holders from all over the world. ... have obtained a PhD degree during the last 8 years ... a member institute will not be eligible to host a candidate of the same nationality.",
     "ask_funder": "",
     "evidence_urls": [

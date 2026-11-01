@@ -255,7 +255,7 @@
     "ai_fit": "High",
     "url": "https://iclr.cc/Conferences/2026/FinancialAssistance",
     "how_to_apply_tip": "ICLR 2027 paper decisions are 16 Dec 2026; watch iclr.cc for the FA form in Jan-Feb 2027 and choose the reimbursement tier if you need airfare.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "travel",
     "id": 54,
     "deadline_quote": "ICLR 2026: \"March 1st, '26 (AoE)\" (closed); ICLR 2027 financial assistance page not yet published (404).",
@@ -263,13 +263,10 @@
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Uncertain",
-    "verdict_reason": "Aid targets \"student and other early-career contributors\"; 'early-career' is undefined, so it is unclear whether an Associate Professor with PhD <2 years qualifies. No country restriction (underrepresented regions prioritised).",
+    "verdict_reason": "The aid targets 'student and other early-career contributors' but never defines early-career, so it is unclear whether you qualify as an Associate Professor whose PhD was awarded in January 2024 (about 3 years 3 months before ICLR 2027). There is no country restriction, and underrepresented regions get priority.",
     "eligibility_quote": "Aim: \"fund student and other early-career contributors\"; priority to \"student authors,\" \"contributors from underrepresented demographic groups,\" and \"contributors from underrepresented geographic regions.\"",
-    "ask_funder": "Does ICLR financial assistance treat a faculty member (Associate Professor) who received the PhD in 2025 as an 'early-career contributor'?",
-    "evidence_urls": [
-      "https://iclr.cc/Conferences/2026/FinancialAssistance",
-      "https://iclr.cc/Conferences/2027/FinancialAssistance"
-    ]
+    "ask_funder": "Does ICLR financial assistance treat a faculty member (Associate Professor) whose PhD was awarded in January 2024 as an 'early-career contributor'?",
+    "evidence_urls": "https://iclr.cc/Conferences/2026/FinancialAssistance\nhttps://iclr.cc/Conferences/2027/FinancialAssistance"
   },
   {
     "name": "ACM SIGWEB Fair Access Travel Grant",
@@ -379,7 +376,7 @@
     "ai_fit": "High",
     "url": "https://cis.ieee.org/activities/membership-activities/travel-grants",
     "how_to_apply_tip": "Become an IEEE CIS member before applying; only one travel grant per conference and you must declare any INNS/other grant applications.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "travel",
     "id": 58,
     "deadline_quote": "WCCI/IJCNN 2026: applications close \"1st April 2026\"; next CIS conference grant windows not yet posted. Main CIS page blocked (HTTP 418).",
@@ -390,9 +387,7 @@
     "verdict_reason": "The 'Researchers from Developing Countries' grant covers CIS members above student grade, but the opened conference page does not define which countries qualify and the main CIS travel-grant page could not be opened.",
     "eligibility_quote": "\"IEEE CIS Conference Travel Grant for Researchers from Developing Countries\" - for \"IEEE CIS Members of any grade higher than Student.\"",
     "ask_funder": "Does the CIS 'Researchers from Developing Countries' grant use IEEE's developing-country listing (which includes Pakistan), and is a non-student CIS member at a private college in Pakistan eligible?",
-    "evidence_urls": [
-      "https://attend.ieee.org/wcci-2026/ieee-cis-travel-grants/"
-    ]
+    "evidence_urls": "https://attend.ieee.org/wcci-2026/ieee-cis-travel-grants/"
   },
   {
     "name": "ISCA Travel Grants (Interspeech and ISCA workshops)",
@@ -409,7 +404,7 @@
     "ai_fit": "Medium",
     "url": "https://isca-speech.org/Grants",
     "how_to_apply_tip": "Apply via services.isca-speech.org/iscagrants and do not register before the decision; submit report and receipts within 3 months.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "travel",
     "id": 59,
     "deadline_quote": "Apply \"no later than the deadline specified on the website of the event.\" \"If no deadline is specified, the application should be submitted no later than the early registration date of the event.\"",
@@ -419,10 +414,8 @@
     "verdict": "Uncertain",
     "verdict_reason": "Grants target students and early-career scientists ('early career' undefined); the low-income-country exception does not clearly cover Pakistan (lower-middle income). Nationality is fine.",
     "eligibility_quote": "\"ISCA financially supports students and early career scientists\"; \"researchers in special situations like unemployment or coming from low income-level countries\" may apply exceptionally; \"Applicants from all countries are eligible.\"",
-    "ask_funder": "Does ISCA consider a faculty member (Associate Professor) awarded the PhD in 2025 an 'early career scientist' eligible for an ISCA travel grant?",
-    "evidence_urls": [
-      "https://isca-speech.org/Grants"
-    ]
+    "ask_funder": "Does ISCA consider a faculty member (Associate Professor) whose PhD was awarded in January 2024 an 'early career scientist' eligible for an ISCA travel grant?",
+    "evidence_urls": "https://isca-speech.org/Grants"
   },
   {
     "name": "ICTP Schools & Workshops participant grants (incl. ML/AI activities)",
@@ -439,7 +432,7 @@
     "ai_fit": "Medium",
     "url": "https://2022.ictp.it/news/2026/7/2027-ictp-conferences-schools-and-workshops-announced",
     "how_to_apply_tip": "Apply via the event's Indico 'Apply here' link and tick the financial support box; the deadline for those requesting funding/visa is earlier than the general one (e.g. 30 Apr vs 12 May for a July 2026 ML school).",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "travel",
     "id": 60,
     "deadline_quote": "ICTP news: \"ICTP charges no fees for its events, and provides some financial assistance to participants from developing countries.\" Deadlines are set per event on Indico; the AI school pages opened show no deadline (e.g. 'School and Workshop on AI for Emulation...' 18-25 Jun 2027, listed 'Application Closed'/not yet open).",
@@ -449,7 +442,7 @@
     "verdict": "Uncertain",
     "verdict_reason": "ICTP gives some support to developing-country participants, but eligibility (career stage, region) is set per event and the 2027 AI events have not published criteria; some (e.g. Kuwait workshop) are region-limited.",
     "eligibility_quote": "\"ICTP charges no fees for its events, and provides some financial assistance to participants from developing countries.\"",
-    "ask_funder": "For the 2027 'School and Workshop on AI for Emulation, Hybrid and Surrogate Modeling' (smr 4362) and 'Rethinking AI' workshop (smr 4366), are faculty (Associate Professor, PhD 2025) from Pakistan eligible for travel/living grants, and what is the application deadline?",
+    "ask_funder": "For the 2027 'School and Workshop on AI for Emulation, Hybrid and Surrogate Modeling' (smr 4362) and the 'Rethinking AI' workshop (smr 4366), can faculty from Pakistan (Associate Professor, PhD awarded January 2024) get travel or living grants, and what is the application deadline?",
     "evidence_urls": [
       "https://2022.ictp.it/news/2026/7/2027-ictp-conferences-schools-and-workshops-announced",
       "https://www.ictp.it/home/scientific-calendar",

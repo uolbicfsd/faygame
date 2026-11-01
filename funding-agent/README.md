@@ -23,7 +23,7 @@ To rebuild outputs only after hand-editing the JSON: `python3 funding-agent/buil
 Travel grants 19 · Visiting/mobility 18.
 
 Verified on official pages only against the profile in `profile.md`:
-**59 Eligible · 72 Uncertain (ask-funder question given) · 29 Not eligible.**
+**57 Eligible · 67 Uncertain (ask-funder question given) · 36 Not eligible** (re-judged 2026-11-01 for PhD awarded Jan 2024).
 Each row carries the official eligibility and deadline wording plus the pages checked.
 Pipeline: scouts write `data/raw_*.json` → verifiers write `data/verified_*.json` → `build_outputs.py`
 (uses verified files when present).

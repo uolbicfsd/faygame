@@ -140,7 +140,7 @@ def build_xlsx(items, path):
     ws.freeze_panes = "D2"
 
     s = wb.create_sheet("Summary", 0)
-    s["A1"] = "Research funding verified for: Pakistani, EE PhD (<2 yrs), Associate Professor (private TNE college), AI & robotics"
+    s["A1"] = "Research funding verified for: Pakistani, EE PhD (awarded Jan 2024), Associate Professor (private TNE college), AI & robotics"
     s["A1"].font = Font(name="Arial", size=13, bold=True)
     s["A2"] = f"Generated {date.today().isoformat()} by the funding-scout research agent. Counts below are live formulas over the Opportunities sheet."
     s["A2"].font = Font(name="Arial", size=9, italic=True)

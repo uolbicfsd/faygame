@@ -14,7 +14,7 @@
     "ai_fit": "High",
     "url": "https://www.cooperativeai.com/grants/cooperative-ai",
     "how_to_apply_tip": "Early-career track fits a 0-3 yr postdoc exactly; read their research-area list and sign up to the newsletter, since rounds open with a pre-proposal stage.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "seed_intl",
     "id": 16,
     "deadline_quote": "Our first grant deadline for 2025 has passed and we are no longer accepting applications. ... To stay informed about future opportunities, please sign up for our newsletter below or revisit this page for updates.",
@@ -22,13 +22,10 @@
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "Official page sets no nationality, institution, age or gender restriction; affiliation not required; early-career track expects applicants within 2-3 years of PhD, which a <2-year PhD meets. No round is currently open, so this applies to the next call's terms if unchanged.",
+    "verdict_reason": "Your PhD was awarded Jan 2024, so by a 2027 round you will be ~3+ years post-PhD, at or beyond the 2-3 years the early-career track 'expects' for most applicants (a soft expectation, not a bar); the standard track has no PhD-age limit, and there is no nationality, institution, age or gender restriction. No round is currently open.",
     "eligibility_quote": "You can be located anywhere in the world. ... An affiliation can, in many cases, strengthen your proposal, but is not required. ... We expect most early-career applicants to apply within 2-3 years of completing their PhD.",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://www.cooperativeai.com/grants/cooperative-ai",
-      "https://www.cooperativeai.com/grants/2025"
-    ]
+    "evidence_urls": "https://www.cooperativeai.com/grants/cooperative-ai\nhttps://www.cooperativeai.com/grants/2025"
   },
   {
     "name": "AI2050 Early Career Fellowship",
@@ -45,7 +42,7 @@
     "ai_fit": "High",
     "url": "https://ai2050.schmidtsciences.org/fellows/",
     "how_to_apply_tip": "Cannot self-apply: ask your institution or senior collaborators connected to AI2050 to nominate you; build a visible beneficial-AI research agenda.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "seed_intl",
     "id": 17,
     "deadline_quote": "AI2050 Early Career Fellows are selected using a closed nomination process, so there is no application.",
@@ -55,11 +52,8 @@
     "verdict": "Uncertain",
     "verdict_reason": "Nomination-only; official page targets 'postdoctoral and pre-tenure researchers' and is silent on nationality/institution. Unclear whether an Associate Professor counts as pre-tenure.",
     "eligibility_quote": "AI2050 Early Career Fellows are selected using a closed nomination process, so there is no application. ... encourage postdoctoral and pre-tenure researchers from around the world.",
-    "ask_funder": "Does an untenured Associate Professor at a private transnational college in Pakistan (PhD 2025) count as 'pre-tenure' for AI2050 Early Career nomination, and who may nominate?",
-    "evidence_urls": [
-      "https://ai2050.schmidtsciences.org/fellows/",
-      "https://ai2050.schmidtsciences.org/"
-    ]
+    "ask_funder": "Does an untenured Associate Professor at a private transnational college in Pakistan, whose PhD was awarded in January 2024, count as 'pre-tenure' for AI2050 Early Career nomination, and who may nominate?",
+    "evidence_urls": "https://ai2050.schmidtsciences.org/fellows/\nhttps://ai2050.schmidtsciences.org/"
   },
   {
     "name": "Science of Trustworthy AI RFP",
@@ -169,7 +163,7 @@
     "ai_fit": "High",
     "url": "https://comstech.org/?p=1176",
     "how_to_apply_tip": "Program page looks dated (2017 stats); email COMSTECH (comstech@comstech.org) to confirm the current cycle. Cannot apply to TWAS Research Grants in same year.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "seed_intl",
     "id": 21,
     "deadline_quote": "The COMSTECH programme page states no application deadline or dates; the linked TWAS opportunity page returned HTTP 403.",
@@ -180,9 +174,7 @@
     "verdict_reason": "Age rule 'under the age of 40' may exclude a 36-45 applicant if 40+; also requires a position at a 'university or research institution' (TNE college status unclear); programme currency unconfirmed.",
     "eligibility_quote": "Individual applicants must be nationals of OIC Member States, with a PhD ... They should hold positions at universities or research institutions in one of the OIC countries. ... the grants are awarded to competent scientists under the age of 40 years.",
     "ask_funder": "Is the COMSTECH-TWAS Joint Research Grant still running in 2026-27 and when is the next deadline? Is the under-40 age limit strict, and does a private transnational college (Beaconhouse International College) count as a research institution?",
-    "evidence_urls": [
-      "https://comstech.org/?p=1176"
-    ]
+    "evidence_urls": "https://comstech.org/?p=1176"
   },
   {
     "name": "Internet Society Foundation Research Grant Programme",
@@ -292,7 +284,7 @@
     "ai_fit": "High",
     "url": "https://rgms.psf.gov.pk/rgms/login.aspx",
     "how_to_apply_tip": "Secure a letter of commitment from an industry partner and submit via RGMS; AI for manufacturing/quality control fits well.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 25,
     "deadline_quote": "Concept Paper Submission Guide: Industrial Solution Grants for Young Scientists. Deadline: 31st March 2026",
@@ -302,11 +294,8 @@
     "verdict": "Uncertain",
     "verdict_reason": "PSF guide only requires a PI at a Pakistani institution plus an MS/PhD student and industry Co-PI; 'young scientist' age/PhD-year limit and accepted institution types are not stated, and BIC does not run MS/PhD programmes.",
     "eligibility_quote": "There are three elements for this grant: i) a PI (Principal Investigator) working at a Pakistani Institution, ii) a student of MS/Ph.D, iii) a CoPI from Industry.",
-    "ask_funder": "What is the age/PhD-year definition of 'young scientist', is a private TNE college (BIC) an eligible PI institution, can the MS/PhD student be from another university, and when is the next call?",
-    "evidence_urls": [
-      "https://rgms.psf.gov.pk/downloads/rgms-guide-for-rd-industry-march-2026-call.pdf",
-      "https://rgms.psf.gov.pk/rgms/login.aspx"
-    ]
+    "ask_funder": "How old can you be, or how many years after your PhD, to count as a 'young scientist'? My PhD was awarded in January 2024. Is a private TNE college (BIC) an eligible PI institution? Can the MS/PhD student come from another university? When is the next call?",
+    "evidence_urls": "https://rgms.psf.gov.pk/downloads/rgms-guide-for-rd-industry-march-2026-call.pdf\nhttps://rgms.psf.gov.pk/rgms/login.aspx"
   },
   {
     "name": "Amazon Research Awards (ARA) – Fall 2026 Call for Proposals",

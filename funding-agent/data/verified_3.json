@@ -375,7 +375,7 @@
     "ai_fit": "Medium",
     "url": "https://sigchi.org/resources/gary-marsden-travel-awards/",
     "how_to_apply_tip": "Next deadlines 2026-11-09 then 2027-01-09 (11:59 PM AoE); conference must start more than one month after the deadline. Good fit: HRI (ACM/IEEE Human-Robot Interaction) is SIGCHI-sponsored. Buy SIGCHI (not just ACM) membership before submitting on Submittable.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "travel",
     "id": 43,
     "deadline_quote": "There are seven deadlines: the 9th of January, February, March, May, July, September, and November at 11:59 PM AoE",
@@ -383,13 +383,10 @@
     "call_status": "Open now",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "PhD within 5 years meets the early-career rule and no nationality restriction exists; conditional on holding SIGCHI membership at application and attending a SIGCHI-sponsored/in-cooperation conference starting more than one month after the chosen deadline.",
+    "verdict_reason": "Your PhD was awarded in January 2024, so on the 9 Nov 2026 deadline it is about 2 years 10 months old (and still under 5 years at every 2027 deadline). That meets the 'up to 5 years post-graduation' early-career rule, and there is no nationality restriction. You must hold SIGCHI membership when you apply and attend a SIGCHI-sponsored or in-cooperation conference that starts more than one month after the deadline you choose.",
     "eligibility_quote": "Targets \"early-career researchers (such as those who are ≤ 5 years post-graduation)\" and those \"experiencing financial hardship or lacking institutional support.\" \"You must be a SIGCHI member at the time of application to be eligible.\" \"For physical travel, you can only receive support once every three years.\"",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://sigchi.org/resources/gary-marsden-travel-awards/",
-      "https://sigchi.submittable.com/submit/248684/gary-marsden-travel-awards"
-    ]
+    "evidence_urls": "https://sigchi.org/resources/gary-marsden-travel-awards/\nhttps://sigchi.submittable.com/submit/248684/gary-marsden-travel-awards"
   },
   {
     "name": "Heidelberg Laureate Forum - Young Researchers (14th HLF, 2027)",
@@ -406,7 +403,7 @@
     "ai_fit": "High",
     "url": "https://www.heidelberg-laureate-forum.org/young-researchers/faq/",
     "how_to_apply_tip": "Application window opens 11 Nov 2026; for the travel grant you must upload a rejection letter from your institution/HEC showing other funding was sought, so request that early.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "travel",
     "id": 44,
     "deadline_quote": "Application phase for the 14th HLF 2027: November 11, 2026, until February 11, 2027 at 11:59 p.m. Berlin time (CET / UTC+1).",
@@ -414,9 +411,9 @@
     "call_status": "Opens later",
     "opens_on": "2026-11-11",
     "verdict": "Uncertain",
-    "verdict_reason": "PhD within 5 years satisfies the postdoc rule and Assistant Professors are explicitly allowed, but the FAQ is silent on Associate Professors and the field is 'mathematics and computer science (or closely related fields)' while the PhD is in EE.",
+    "verdict_reason": "Your PhD, awarded in January 2024, is about 3.1 years old at the 11 Feb 2027 deadline, so it meets the 'PhD within the past 5 years' postdoc rule. Assistant Professors are explicitly allowed, but the FAQ says nothing about Associate Professors. The field is 'mathematics and computer science (or closely related fields)', and your PhD is in EE.",
     "eligibility_quote": "\"Postdoc: If you have earned a PhD within the past 5 years.\" \"It is not required for you to hold a classic postdoctoral position.\" \"as an Assistant Professor, you may also apply.\" Eligible: \"Students of mathematics and computer science (or closely related fields)\".",
-    "ask_funder": "I am an Associate Professor (PhD in Electrical Engineering awarded 2025, research in AI and robotics). Am I eligible to apply as a young researcher in the postdoc category for HLF 2027?",
+    "ask_funder": "I am an Associate Professor (PhD in Electrical Engineering awarded January 2024, research in AI and robotics). Am I eligible to apply as a young researcher in the postdoc category for HLF 2027?",
     "evidence_urls": [
       "https://www.heidelberg-laureate-forum.org/young-researchers/faq/"
     ]

@@ -14,21 +14,16 @@
     "ai_fit": "High",
     "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
     "how_to_apply_tip": "Pick a supervisor at an EU host (e.g. a robotics/AI lab in Spain, Portugal, Italy, Czechia or Poland) by early 2027 and draft Part B with the host's EU office; many universities run internal pre-screening months before the September deadline.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "EU Funding & Tenders Portal topic HORIZON-MSCA-2027-PF-01-01 'MSCA Postdoctoral Fellowships 2027': status 'Forthcoming', planned opening date 7 April 2027, deadline date 8 September 2027 (portal data, Brussels time).",
     "last_known_deadline": "2026-09-09",
     "call_status": "Opens later",
     "opens_on": "2027-04-07",
     "verdict": "Eligible",
-    "verdict_reason": "You are a non-EU national with a PhD of under 2 years (well under the 8-year cap) who has lived in Pakistan, so the nationality, career-stage and mobility rules are all met for a European Postdoctoral Fellowship; no age, gender or home-institution-type rule applies. You would need leave from BIC because the fellowship is an employment contract at the European host.",
+    "verdict_reason": "You are a non-EU national whose PhD was awarded Jan 2024 (about 3.7 years before the 8 Sep 2027 deadline, well under the 8-year cap) and you have lived in Pakistan, so nationality, career-stage and mobility rules are met; no age, gender or home-institution rule applies. You would need leave from BIC because the fellowship is an employment contract at the European host.",
     "eligibility_quote": "\"European Postdoctoral Fellowships are open to researchers of any nationality who wish to engage in R&I projects by either coming to Europe from any country in the world or moving within Europe. The standard duration of these fellowships must be between 12 and 24 months.\" / \"must have a maximum of eight years experience in research, from the date of the award of their PhD degree\" / \"they must not have resided or carried out their main activity (work, studies, etc.) in the country of the beneficiary ... for more than 12 months in the 36 months before the call deadline.\"",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
-      "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-msca-2027-pf-01-01.json",
-      "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-msca-2026-pf-01-01.json",
-      "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en"
-    ]
+    "evidence_urls": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\nhttps://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-msca-2027-pf-01-01.json\nhttps://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/horizon-msca-2026-pf-01-01.json\nhttps://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en"
   },
   {
     "name": "MSCA Postdoctoral Fellowships 2027 – Global Postdoctoral Fellowships",
@@ -74,20 +69,16 @@
     "ai_fit": "High",
     "url": "https://bienvenue.bretagne.bzh/?p=4553",
     "how_to_apply_tip": "Find a Breton host lab now (e.g. IRISA/Inria Rennes, IMT Atlantique, ENSTA Bretagne, Lab-STICC for AI/robotics) and align the project with a Brittany RIS3 priority; the application template is mandatory and submission is only via the Région Bretagne extranet.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "\"The 2026 will open on December the 1st 2026. The call deadline will be on February the 16th 2027 at 12:00 am CET.\"",
     "last_known_deadline": "2026-02-16",
     "call_status": "Opens later",
     "opens_on": "2026-12-01",
     "verdict": "Eligible",
-    "verdict_reason": "You hold a doctorate, there is no cap on years since PhD, and you have not lived in France, so you meet the only stated rules; no age, nationality, gender or home-institution rule is given. Confirm whether '12:00 am CET' means midnight at the start of 16 Feb, and submit a day early.",
+    "verdict_reason": "You hold a doctorate (awarded January 2024), the call has no cap on years since PhD, and you have not lived in France, so you meet the only stated rules. No age, nationality, gender or home-institution rule is given. Check whether '12:00 am CET' means midnight at the start of 16 Feb, and submit a day early.",
     "eligibility_quote": "\"Doctorate: the candidate must possess a doctorate degree at the call deadline. Contrary to the MSCA-Postdoctoral Fellowships, there is no limit of experience after the thesis. Mobility rule: the candidate must have worked or resided less than 12 months in France in the last three years, at the call deadline.\"",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://bienvenue.bretagne.bzh/?p=4553",
-      "https://bienvenue.bretagne.bzh/?p=4543",
-      "https://bienvenue.bretagne.bzh/funding-opportunities/"
-    ]
+    "evidence_urls": "https://bienvenue.bretagne.bzh/?p=4553\nhttps://bienvenue.bretagne.bzh/?p=4543\nhttps://bienvenue.bretagne.bzh/funding-opportunities/"
   },
   {
     "name": "Juan de la Cierva 2026 (Ayudas para contratos Juan de la Cierva)",
@@ -104,23 +95,16 @@
     "ai_fit": "High",
     "url": "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026",
     "how_to_apply_tip": "Act now: you must fill and sign you form 12-26 Nov 2026 (14:00 Spanish time), and a Spanish university/research centre must then submit by 3 Dec 2026, so secure a host group (e.g. a robotics/AI group at UPC, UPM, UC3M, IRI-CSIC) immediately. CV and historial may be in English.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "\"El plazo de presentación de las solicitudes se iniciará el día 12 de noviembre y finalizará el día 3 de diciembre de 2026 a las 14:00 horas (hora peninsular española). Sin perjuicio de lo anterior, el plazo para la cumplimentación y firma por las personas participantes del formulario electrónico de solicitud se iniciará el día 12 de noviembre y finalizará el día 26 de noviembre de 2026 a las 14:00 horas (hora peninsular española).\"",
     "last_known_deadline": "",
     "call_status": "Opens later",
     "opens_on": "2026-11-12",
-    "verdict": "Eligible",
-    "verdict_reason": "Your PhD falls inside the 1 Jan 2024 - 31 Dec 2026 window, you would join a Spanish centre different from your PhD institution, and the FAQ confirms nationality is no barrier; there is no age, gender or home-institution rule. Note that the host centre (not you) submits the final application.",
-    "eligibility_quote": "\"la fecha de obtención del grado de doctor debe estar comprendida entre el día 1 de enero de 2024 y el 31 de diciembre de 2026\" / \"b) Solicitar la incorporación en un centro de I+D distinto a aquel en el que realizaron su formación predoctoral.\" / FAQ 10: \"La convocatoria está abierta a todos aquellos investigadores e investigadoras que cumplan los requisitos establecidos en la convocatoria, sin menoscabo de su nacionalidad.\"",
+    "verdict": "Not eligible",
+    "verdict_reason": "The call counts your PhD date as the day you defended and passed your thesis, not the award date. Your December 2023 defence falls just before the 1 Jan 2024 start of the general-access window, so you are excluded even though the degree was awarded in January 2024. The window can only be extended for career breaks such as illness, parental leave or caring duties, and the profile lists none. The disability track starts its window on 1 Jan 2023 but needs a certified disability of at least 33%.",
+    "eligibility_quote": "\"la fecha de obtención del grado de doctor debe estar comprendida entre el día 1 de enero de 2024 y el 31 de diciembre de 2026. Se entenderá como fecha de obtención del grado de doctor, la fecha del acto de defensa y aprobación de la tesis doctoral.\" / \"La fecha límite inferior de 1 de enero de 2024, establecida en el párrafo anterior, podrá ampliarse cuando entre la fecha de obtención del grado de doctor y la fecha de cierre del plazo para la cumplimentación del formulario de solicitud concurra alguna de las situaciones que se citan a continuación...\" / \"b) Solicitar la incorporación en un centro de I+D distinto a aquel en el que realizaron su formación predoctoral.\" / FAQ 10: \"La convocatoria está abierta a todos aquellos investigadores e investigadoras que cumplan los requisitos establecidos en la convocatoria, sin menoscabo de su nacionalidad.\"",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026",
-      "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026/convocatoria",
-      "https://www.aei.gob.es/sites/default/files/convocatory_info/assistants/2026-09/Convocatoria%20JDC%202026_firmada.pdf",
-      "https://www.aei.gob.es/sites/default/files/convocatory_info/assistants/2026-10/JDC%20Preguntas%20frecuentes_%202026_V2%2002102026.pdf",
-      "https://www.ciencia.gob.es/Convocatorias/2026/JDC2026.html",
-      "https://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-B-2026-31265.pdf"
-    ]
+    "evidence_urls": "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026\nhttps://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-2026/convocatoria\nhttps://www.aei.gob.es/sites/default/files/convocatory_info/assistants/2026-09/Convocatoria%20JDC%202026_firmada.pdf\nhttps://www.aei.gob.es/sites/default/files/convocatory_info/assistants/2026-10/JDC%20Preguntas%20frecuentes_%202026_V2%2002102026.pdf\nhttps://www.ciencia.gob.es/Convocatorias/2026/JDC2026.html\nhttps://www.boe.es/boe/dias/2026/09/26/pdfs/BOE-B-2026-31265.pdf"
   },
   {
     "name": "Royal Commission for the Exhibition of 1851 – Research Fellowship 2027",
@@ -137,19 +121,16 @@
     "ai_fit": "High",
     "url": "https://royalcommission1851.org/fellowships/research-fellowships",
     "how_to_apply_tip": "Get a UK host acceptance letter and two referees (one normally from a UK institution, neither from the host) well before 20 Jan 2027; host universities often have earlier internal deadlines (e.g. Nov 2026).",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "\"Completed applications must be submitted by 20 January 2027 by 12 noon GMT.\"",
     "last_known_deadline": "2026-01-13",
     "call_status": "Open now",
     "opens_on": "",
-    "verdict": "Eligible",
-    "verdict_reason": "Your PhD is under 2 years old, inside the 2.5-year early-career limit, engineering/applied science covers AI and robotics, and the terms set no nationality, age or home-institution restriction. You would need full-time release (the fellowship requires your whole working time for research).",
-    "eligibility_quote": "\"Candidates should hold a PhD or be in the final stages of their PhD studies ... those with more than 2.5 years postdoctoral research experience (discounting career breaks) by 31 January in the year of award (31 January 2027) will only be considered in exceptional circumstances\" / \"A Fellowship will normally be held at a UK Institution approved by the Commissioners; the research should be carried out at a different Institution from the one where the candidate's PhD research was undertaken.\"",
+    "verdict": "Not eligible",
+    "verdict_reason": "Your PhD was awarded Jan 2024 (defended Dec 2023), so by the reference date of 31 Jan 2027 you will have about 3 years of post-PhD experience as faculty, more than the 2.5-year limit; such candidates are considered only in exceptional circumstances (rarely granted, for disruption beyond your control).",
+    "eligibility_quote": "\"Given that these are early career awards, those with more than 2.5 years postdoctoral research experience (discounting career breaks) by 31 January in the year of award (31 January 2027) will only be considered in exceptional circumstances*.\" / \"* Please note that exemptions are rarely granted. Commissioners must be convinced that disruption to your postdoctoral experience was exceptional and beyond your control.\" / \"A Fellowship will normally be held at a UK Institution approved by the Commissioners; the research should be carried out at a different Institution from the one where the candidate's PhD research was undertaken.\"",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://royalcommission1851.org/fellowships/research-fellowships",
-      "https://royalcommission1851.org/uploads/Research-Fellowships-TCs-2027.pdf"
-    ]
+    "evidence_urls": "https://royalcommission1851.org/fellowships/research-fellowships\nhttps://royalcommission1851.org/uploads/Research-Fellowships-TCs-2027.pdf"
   },
   {
     "name": "Royal Society Newton International Fellowships",
@@ -166,18 +147,16 @@
     "ai_fit": "High",
     "url": "https://royalsociety.org/grants/newton-international/",
     "how_to_apply_tip": "Line up a UK host (e.g. a robotics group at Bristol, Edinburgh, Oxford, Imperial) before the next round opens (2026 round opened mid-January); the host co-signs the application.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "Official scheme page (2026 round, status Closed): \"Open date 15 January 2026\", \"Close date 11 March 2026\", \"Decision by 31 August 2026\". No 2027 round dates published.",
     "last_known_deadline": "2026-03-11",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "You are a non-UK citizen based outside the UK, with a PhD under 2 years (inside the 5-year postdoctoral-experience limit), working in engineering within the Royal Society's remit; no age, gender or institution-type rule applies.",
+    "verdict_reason": "You are a non-UK citizen based outside the UK; your PhD was awarded Jan 2024, so you have under 3 years of post-PhD experience, inside the 5-year limit, and you work in engineering within the Royal Society's remit; no age, gender or institution-type rule applies.",
     "eligibility_quote": "\"You have a PhD, or will have successfully defended your doctoral thesis before the closing date for applications\" / \"You have no more than five years of active full-time postdoctoral experience post-PhD at the time of application\" / \"You are based outside the UK\" / \"You do not hold UK citizenship\"",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://royalsociety.org/grants/newton-international/"
-    ]
+    "evidence_urls": "https://royalsociety.org/grants/newton-international/"
   },
   {
     "name": "Royal Academy of Engineering Research Fellowships",
@@ -194,13 +173,13 @@
     "ai_fit": "High",
     "url": "https://raeng.org.uk/programmes-and-prizes/programmes/uk-grants-and-prizes/support-for-research/research-fellowships",
     "how_to_apply_tip": "Two-stage process: Expression of Interest (2026/27 round closed 25 June 2026) then invited full application. Host universities cap submissions and run internal selection in spring, so approach a UK engineering department by early 2027.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "\"2026/27 Expression of Interest stage will open in May 2026 and the submission deadline will be 5pm BST, Thursday 25 June 2026.\" (invited full applications due 10 December 2026, invited applicants only)",
     "last_known_deadline": "2026-06-25",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "There is no nationality or age restriction, your PhD is well within the 4-year limit, the former ban on holding a permanent post has been removed, and AI/robotics is engineering; you need a UK host university.",
+    "verdict_reason": "There is no nationality or age restriction. Your PhD, awarded in January 2024, will be about 3.4 years old at a June 2027 Expression of Interest deadline, within the 4-year limit. The former ban on holding a permanent post has been removed, and AI/robotics counts as engineering. You need a UK host university.",
     "eligibility_quote": "\"There are no nationality and age restrictions for applicants.\" / \"Applicants must have a PhD, which was awarded ... no more than four years before the submission deadline of the Expression of Interest.\" / \"in a number of previous rounds, applicants could not hold a permanent academic position. This eligibility criterion has been removed and is no longer applicable.\"",
     "ask_funder": "",
     "evidence_urls": [
@@ -251,16 +230,16 @@
     "ai_fit": "Medium",
     "url": "https://www.leverhulme.ac.uk/early-career-fellowships",
     "how_to_apply_tip": "Open the Leverhulme ECF page in a browser and check the residency/UK-doctorate condition before investing time; a UK host institution must approve the application.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "",
     "last_known_deadline": "",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Uncertain",
-    "verdict_reason": "The official Leverhulme page returned HTTP 403 and could not be read, so the residency and UK-degree conditions, which may exclude someone with a non-UK PhD living in Pakistan, could not be verified.",
+    "verdict_reason": "The official Leverhulme page returned HTTP 403. The four-year rule reportedly counts from thesis submission for viva before the closing date (reported as 18 Feb 2027), so your eligibility depends on when you submitted the thesis you defended in Dec 2023 (degree awarded Jan 2024); the residency and UK-degree conditions also could not be verified.",
     "eligibility_quote": "",
-    "ask_funder": "I hold a non-UK PhD (awarded < 2 years ago), am a Pakistani national resident in Pakistan and work at a college delivering UK university degrees; am I eligible for an Early Career Fellowship at a UK host, and what is the next closing date?",
-    "evidence_urls": []
+    "ask_funder": "I submitted my (non-UK) PhD thesis for examination on <SUBMISSION DATE>, defended in December 2023 and was awarded the degree in January 2024; I am a Pakistani national resident in Pakistan. Am I within the four-year window for the February 2027 closing date, and am I eligible for an Early Career Fellowship at a UK host?",
+    "evidence_urls": ""
   },
   {
     "name": "Ulam NAWA Programme (incoming researchers to Poland)",
@@ -277,19 +256,16 @@
     "ai_fit": "High",
     "url": "https://nawa.gov.pl/en/nawa/news/call-for-proposals-ulam-nawa-2026",
     "how_to_apply_tip": "Agree a project with a Polish host (e.g. AGH, Warsaw/Poznań University of Technology robotics groups) by early spring; the host submits the application in English. Your CORE/DBLP-indexed papers count as achievements.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "\"The call for applications will be open until 15 May 2026, 3:00:00 p.m., according to the official time in Poland.\"",
     "last_known_deadline": "2026-05-15",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Uncertain",
-    "verdict_reason": "You meet the doctorate, no-stay-in-Poland and publication rules, but the call requires employment at a 'foreign university or a foreign scientific/research centre' unless your PhD was awarded after 31 Aug 2025; it is unclear whether BIC, a private TNE college, counts.",
+    "verdict_reason": "You meet the doctorate, no-stay-in-Poland and publication rules, but because your PhD was awarded in Jan 2024 (not after 31 Aug 2025) the employment exemption does not apply: you must be employed at a 'foreign university or a foreign scientific/research centre', and it is unclear whether BIC, a private TNE college, counts.",
     "eligibility_quote": "\"is employed at a foreign university or a foreign scientific/research centre, or the last employment at a foreign university or a foreign scientific/research centre ended after 31 August 2025. Employment is not required for persons who obtained a doctoral degree after 31 August 2025\" / \"in the period of 3 years before the time of application deadline, hadn't worked nor studied in Poland nor had stayed in Poland continuously for longer than 3 months\" / \"has at least 3 achievements within 5 years before the call deadline\"",
     "ask_funder": "Does employment as Associate Professor at Beaconhouse International College (a private college in Pakistan delivering University of Essex and LJMU degrees, not itself degree-awarding) satisfy the 'employed at a foreign university or a foreign scientific/research centre' condition?",
-    "evidence_urls": [
-      "https://www.nawa.gov.pl/images/Ulam/Ulam_2026/Call-for-applications-Ulam_NAWA_2026.pdf",
-      "https://nawa.gov.pl/en/nawa/news/call-for-proposals-ulam-nawa-2026"
-    ]
+    "evidence_urls": "https://www.nawa.gov.pl/images/Ulam/Ulam_2026/Call-for-applications-Ulam_NAWA_2026.pdf\nhttps://nawa.gov.pl/en/nawa/news/call-for-proposals-ulam-nawa-2026"
   },
   {
     "name": "FCT Individual Call to Scientific Employment Stimulus (CEEC Individual) – 9th edition",
@@ -363,18 +339,16 @@
     "ai_fit": "High",
     "url": "https://gacr.cz/wp-content/uploads/2026/02/Practical_information_PIF-IN_2027_ENG.pdf",
     "how_to_apply_tip": "Next tender is expected to be announced in February (2026 tender ran 10 Feb - 31 Mar); secure a Czech host (e.g. CTU CIIRC, Brno University of Technology) in advance and prepare the proposal in GRIS.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "deadline_quote": "\"Tender Period: 10 February – 31 March 2026\" (2027-funding tender; next tender not yet announced)",
     "last_known_deadline": "2026-03-31",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
     "verdict": "Uncertain",
-    "verdict_reason": "Your PhD is inside the 4-year window and you have never worked in Czechia, but the documents do not define how 'long-term foreign experience' applies to a non-Czech researcher, and the next tender's rules are not yet out.",
-    "eligibility_quote": "\"Helping Czech scientists to return from abroad or foreign researchers to arrive to Czechia\" / \"For researchers up to 4 years after obtaining their Ph.D.\" / \"Long-term foreign experience must be completed and documented no later than 30 September of the year in which the Public Tender is published\" / \"During the Tender Period, the Applicant must not have an employment or similar relationship at any scientific institution in Czechia\"",
-    "ask_funder": "For a Pakistani national who has always worked outside Czechia, does work in Pakistan count as the required 'long-term foreign experience' for PIF-Incoming, and when will the next tender open?",
-    "evidence_urls": [
-      "https://gacr.cz/wp-content/uploads/2026/02/Practical_information_PIF-IN_2027_ENG.pdf"
-    ]
+    "verdict_reason": "Your PhD date counts from the award. In the 2026 tender, 'no more than 4 years' meant an award on or after 30 Sep 2022, measured at 30 September of the tender year. If the next (2027) tender keeps that rule, the cutoff becomes on or after 30 Sep 2023, and your January 2024 award passes. A 2028 tender would exclude you. You have never worked in Czechia, but the documents do not define how 'long-term foreign experience' applies to a non-Czech researcher, and the next tender's rules are not yet out.",
+    "eligibility_quote": "\"Helping Czech scientists to return from abroad or foreign researchers to arrive to Czechia\" / \"For researchers up to 4 years after obtaining their Ph.D.\" / \"By 30 September 2026, no more than 4 years have elapsed since the receiving of the Ph.D. (or equivalent) to the Applicant, i.e. award on or after 30 September 2022\" / \"Long-term foreign experience must be completed and documented no later than 30 September of the year in which the Public Tender is published\" / \"During the Tender Period, the Applicant must not have an employment or similar relationship at any scientific institution in Czechia\"",
+    "ask_funder": "For a Pakistani national who has always worked outside Czechia, does work in Pakistan count as the required 'long-term foreign experience' for PIF-Incoming? Will the 2027 tender require a PhD award on or after 30 September 2023 (mine was awarded January 2024), and when will it open?",
+    "evidence_urls": "https://gacr.cz/wp-content/uploads/2026/02/Practical_information_PIF-IN_2027_ENG.pdf"
   },
   {
     "name": "ETAG Incoming Postdoctoral Grant (Mobilitas 3.0, MSCA-linked)",
@@ -419,16 +393,16 @@
     "status": "Recurring",
     "ai_fit": "Medium",
     "url": "https://www.mur.gov.it/it/aree-tematiche/universita/carriera-accademica/programma-rita-levi-montalcini",
-    "how_to_apply_tip": "Revisit from about 2028, once your PhD is 3+ years old; calls appear on bandomontalcini.cineca.it.",
-    "verified_on": "2026-10-31",
+    "how_to_apply_tip": "Your PhD reaches the 3-year minimum in January 2027; watch bandomontalcini.cineca.it for the next call.",
+    "verified_on": "2026-11-01",
     "deadline_quote": "MUR page lists the latest call as the 2022-2024 bando (DM n. 1652 of 18 October 2024) with rankings in DM n. 945 of 22 July 2026; no new deadline published.",
     "last_known_deadline": "",
     "call_status": "Closed – next call not announced",
     "opens_on": "",
-    "verdict": "Not eligible",
-    "verdict_reason": "The programme requires a PhD obtained at least 3 years earlier, and your PhD is under 2 years old.",
+    "verdict": "Uncertain",
+    "verdict_reason": "The programme needs a PhD held for 'not less than 3 and not more than 6 years'. Your PhD was awarded in January 2024 (defended Dec 2023), so you reach the 3-year minimum in January 2027 and would pass the PhD-date rule for any call whose deadline falls after that. The next call is not announced, and the reference date is set in each bando. It is also unclear whether your post at BIC, a private TNE college, counts as 3 years of activity abroad 'in una università o in un centro di ricerca'.",
     "eligibility_quote": "\"il possesso del titolo di dottore di ricerca da non più di 6 anni e da non meno di 3 anni\" / \"essere impegnati in attività all'estero in una università o in un centro di ricerca da almeno 3 anni\"",
-    "ask_funder": "",
+    "ask_funder": "For the next Rita Levi Montalcini call, is the 3-6 years since PhD window measured at the bando deadline? My PhD was awarded in January 2024 (defended December 2023). Does full-time teaching and research at a private transnational college in Pakistan that delivers UK university degrees count as 3 years of activity abroad 'in una università o in un centro di ricerca'?",
     "evidence_urls": [
       "https://www.mur.gov.it/it/aree-tematiche/universita/carriera-accademica/programma-rita-levi-montalcini"
     ]

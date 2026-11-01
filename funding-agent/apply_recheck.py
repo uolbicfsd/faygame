@@ -11,7 +11,7 @@ DATA = Path(__file__).resolve().parent / "data"
 prefix = sys.argv[1] if len(sys.argv) > 1 else "phd_recheck"
 
 updates = {}
-for f in sorted(glob.glob(str(DATA / f"{prefix}_*.json"))):
+for f in sorted(glob.glob(str(DATA / f"{prefix}_[0-9]*.json"))):
     for r in json.loads(Path(f).read_text()):
         updates[r["name"]] = r
 

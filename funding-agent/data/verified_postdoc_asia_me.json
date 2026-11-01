@@ -17,15 +17,11 @@
     "last_known_deadline": "2026-08-28",
     "call_status": "Open now",
     "verdict": "Eligible",
-    "verdict_reason": "You meet both candidate conditions: Pakistan has diplomatic relations with Japan and your PhD (after Nov 2024) is well inside the 6-year window; your Associate Professor post does not matter because employment status is not considered. No age, gender or home-institution rule applies.",
+    "verdict_reason": "You meet both candidate conditions. Pakistan has diplomatic relations with Japan. Your PhD, awarded in January 2024, is about 3 years 3 months old on 1 April 2027 (FY2027), well inside the 6-year window. Your Associate Professor post does not matter because employment status is not considered. No age, gender or home-institution rule applies.",
     "eligibility_quote": "(1) Be a citizen of a country that has diplomatic relations with Japan (JSPS treats Taiwanese and Palestinian researchers in this manner). (2) as of April 1 of the fiscal year, have obtained a doctoral degree within six years of the date the fellowship goes into effect ... Whether or not the candidate is employed in a full-time position is not considered.",
-    "evidence_urls": [
-      "https://www.jsps.go.jp/english/e-fellow/e-ippan/index.html",
-      "https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html",
-      "https://www.jsps.go.jp/english/e-fellow/application.html"
-    ],
+    "evidence_urls": "https://www.jsps.go.jp/english/e-fellow/e-ippan/index.html\nhttps://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html\nhttps://www.jsps.go.jp/english/e-fellow/application.html",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -47,14 +43,11 @@
     "last_known_deadline": "2026-09-25",
     "call_status": "Open now",
     "verdict": "Not eligible",
-    "verdict_reason": "You are a Pakistani citizen living in Pakistan, and this short-term track is limited to citizens or long-term researchers of the US, Canada, Europe and Russia.",
+    "verdict_reason": "You are a Pakistani citizen living in Pakistan, and this short-term track is limited to citizens or long-term researchers of the US, Canada, Europe and Russia. The rule does not depend on your PhD date (awarded January 2024, within 6 years).",
     "eligibility_quote": "(1) Be a citizen or permanent resident of an eligible country stipulated in the below (*). Also eligible are persons who have been engaged in research continuously over a period of at least three years at a university or research institution in one of the eligible countries. ... (*) Eligible countries are the US, Canada, European Union countries, UK, Switzerland, Norway and Russia.",
-    "evidence_urls": [
-      "https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html",
-      "https://www.jsps.go.jp/english/e-fellow/e-oubei-s/appliguidelines.html"
-    ],
+    "evidence_urls": "https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html\nhttps://www.jsps.go.jp/english/e-fellow/e-oubei-s/appliguidelines.html",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -76,14 +69,11 @@
     "last_known_deadline": "2026-04-09",
     "call_status": "Closed – next call not announced",
     "verdict": "Eligible",
-    "verdict_reason": "Your PhD (after Nov 2024) satisfies the PhD-on-or-after-2021 rule and the call has no nationality, age or home-institution condition; you would need to take up a full-time 3-year RIKEN contract (leave or resign from BIC). Watch for the FY2028 call around February 2027.",
+    "verdict_reason": "Your PhD, awarded in January 2024, satisfies the rule that the PhD be awarded on or after 1 January 2021. The call has no nationality, age or home-institution condition. You would need to take a full-time 3-year RIKEN contract, so you would have to take leave from or resign your BIC post. Watch for the FY2028 call around February 2027.",
     "eligibility_quote": "Applicants must fulfill all four conditions given below: 1. Be prepared to independently and responsibly pursue a research topic. 2. Have a PhD awarded on or after January 1, 2021, or expect to be awarded a PhD by the date of hire. 3. Able to start work in FY 2027 (April 1, 2027 to March 31, 2028)",
-    "evidence_urls": [
-      "https://www.riken.jp/en/careers/programs/spdr/",
-      "https://www.riken.jp/en/careers/programs/spdr/career2027/"
-    ],
+    "evidence_urls": "https://www.riken.jp/en/careers/programs/spdr/\nhttps://www.riken.jp/en/careers/programs/spdr/career2027/",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -133,14 +123,12 @@
     "last_known_deadline": "",
     "call_status": "Suspended",
     "verdict": "Uncertain",
-    "verdict_reason": "You would meet the PhD-within-5-years rule, but the official page says the programme stopped taking applications and no newer call is posted.",
+    "verdict_reason": "Your PhD was awarded Jan 2024, so you would meet the PhD-within-5-years rule, but the official page says the programme stopped taking applications and no newer call is posted.",
     "eligibility_quote": "a Ph.D. acquired no longer than 5 years ago",
     "ask_funder": "Is IPSF still running, and if so when is the next call?",
-    "evidence_urls": [
-      "https://groups.oist.jp/ipsf"
-    ],
+    "evidence_urls": "https://groups.oist.jp/ipsf",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": ""
   },
   {
@@ -161,16 +149,13 @@
     "last_known_deadline": "2026-10-30",
     "call_status": "Closed – next call not announced",
     "verdict": "Eligible",
-    "verdict_reason": "Your PhD (after Nov 2024) is within the 'on or after 1 January 2023' window, and there is no nationality, age or home-institution condition; you would obtain HK work rights through the host university. The 2027/28 round closed yesterday, so aim for the next exercise.",
-    "eligibility_quote": "To qualify for the fellowship, the JRFS nominee must: obtain a legal right to work and reside in Hong Kong during the fellowship period; have obtained / been conferred a PhD degree or an equivalent qualification on or after 1 January 2023 ... and be supported by a UGC-funded university at which he / she wishes to hold the fellowship.",
-    "evidence_urls": [
-      "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/",
-      "https://www.ugc.edu.hk/eng/rgc/funding_opport/pdfs/"
-    ],
+    "verdict_reason": "Your PhD awarded Jan 2024 met the 2027/28 rule (conferred on or after 1 Jan 2023), and there is no nationality, age or home-institution condition, but that round closed on 30 Oct 2026. If the next round rolls the window forward a year (on or after 1 Jan 2024), your Jan 2024 conferral would still just qualify; confirm the cut-off when it is published.",
+    "eligibility_quote": "To qualify for the fellowship, the JRFS nominee must: obtain a legal right to work and reside in Hong Kong during the fellowship period; have obtained / been conferred a PhD degree or an equivalent qualification on or after 1 January 2023 (i.e. not more than three years before 2026) ... and be supported by a UGC-funded university at which he / she wishes to hold the fellowship. / \"The nomination deadline for the JRFS (2027/28) is 30 October 2026 (Friday).\"",
+    "evidence_urls": "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/\nhttps://www.ugc.edu.hk/eng/rgc/funding_opport/pdfs/",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
-    "ask_funder": ""
+    "ask_funder": "What is the PhD conferral cut-off for the JRFS 2028/29 exercise, and is the conferral date (Jan 2024) rather than the defence date (Dec 2023) the one that counts?"
   },
   {
     "name": "Shuimu Tsinghua Scholar Program",
@@ -189,15 +174,13 @@
     "deadline_quote": "Second round of applications and reviews: Submission date: September 2026 (please consult the department to which you are applying for the specific time) Recommendations provided by departments: October 10, 2026",
     "last_known_deadline": "2026-10-10",
     "call_status": "Closed – next call not announced",
-    "verdict": "Uncertain",
-    "verdict_reason": "Your PhD fits the 3-year rule and the call names no nationality limit, but it is silent on age, and Chinese postdoctoral station rules commonly cap new postdocs at 35, which you exceed; the 2026 rounds are closed.",
+    "verdict": "Not eligible",
+    "verdict_reason": "Applicants must have obtained their PhD 'within the last three years'. Your January 2024 award passes three years in January 2027, so by the next round (March 2027 submissions) you are outside the window. The 2026 rounds have closed. The call is also silent on age, while Chinese postdoctoral station rules commonly cap entry at 35.",
     "eligibility_quote": "Applicants must fulfill the following requirements: (1) Will obtain their PhD degree, or have obtained their PhD degree within the last three years; (2) Recommended by the interview of the department; (3) Undertake to work full time at Tsinghua University after commencing the program.",
-    "ask_funder": "Is there an age limit (e.g. 35) for foreign applicants to the Shuimu Tsinghua Scholar Program in 2027, and can a Pakistani applicant aged 36-45 with a 2025 PhD enter a Tsinghua postdoctoral station?",
-    "evidence_urls": [
-      "https://postdoctor.tsinghua.edu.cn/info/zxtz/2174"
-    ],
+    "ask_funder": "",
+    "evidence_urls": "https://postdoctor.tsinghua.edu.cn/info/zxtz/2174",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": ""
   },
   {
@@ -220,12 +203,10 @@
     "verdict": "Uncertain",
     "verdict_reason": "The official portal says applications are year-round but does not confirm a postdoctoral category or its age/PhD rules, and other sources report the scheme is paused; you need a CAS host to confirm.",
     "eligibility_quote": "PIFI is open to applications all year round. (The page gives no age, PhD-year or nationality criteria; per the page, applications come through a CAS host, not directly from foreign researchers.)",
-    "ask_funder": "Is the PIFI postdoctoral researcher category open for 2027, and what are its age and PhD-year limits for a Pakistani applicant aged 36-45 with a 2025 PhD?",
-    "evidence_urls": [
-      "https://pifi.cas.cn/front/mobi/PIFIInfo.html?index=0"
-    ],
+    "ask_funder": "Is the PIFI postdoctoral researcher category open for 2027? What are its age and PhD-year limits for a Pakistani applicant aged 36-45 whose PhD was awarded in January 2024?",
+    "evidence_urls": "https://pifi.cas.cn/front/mobi/PIFIInfo.html?index=0",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": ""
   },
   {
@@ -274,14 +255,12 @@
     "last_known_deadline": "",
     "call_status": "Open now",
     "verdict": "Uncertain",
-    "verdict_reason": "You meet the PhD rule (PhD after 2019), but YSF posts are only in the listed basic-science Centers (mathematics, physics, chemistry, life sciences), none of which is AI or robotics, so your proposal must fit one of them.",
+    "verdict_reason": "You meet the PhD rule (your PhD was awarded Jan 2024, after 1 Jan 2019), but YSF posts are only in the listed basic-science Centers (mathematics, physics, chemistry, life sciences), none of which is AI or robotics, so your proposal must fit one of them.",
     "eligibility_quote": "YSF - Within seven years of obtaining a Ph.D. (obtained no earlier than 1 January 2019) or under the age of 40 with a Ph.D. (born no earlier than 1 January 1986)",
     "ask_funder": "Would an AI/robotics-methods proposal be eligible for a 2027 YSF slot in any listed hiring Center, or must the research be within that Center's basic-science field?",
-    "evidence_urls": [
-      "https://ibs.re.kr/ysf/juniorci"
-    ],
+    "evidence_urls": "https://ibs.re.kr/ysf/juniorci",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": ""
   },
   {
@@ -302,14 +281,14 @@
     "last_known_deadline": "2026-09-01",
     "call_status": "Opens later",
     "verdict": "Eligible",
-    "verdict_reason": "Your PhD (after Nov 2024) is within the 5-year window and foreign PhDs of any nationality may apply; no age or institution rule. The dated 2027 second-round announcement is not yet published.",
+    "verdict_reason": "Your PhD was awarded in January 2024, about 3 years before the 2027 second round, well within the 5-year window. Foreign PhDs of any nationality may apply, and there is no age or institution rule. The dated announcement for the 2027 second round is not yet published.",
     "eligibility_quote": "Applicants with Ph.D. degrees conferred by domestic or foreign public or private universities within the last five years are eligible to apply.",
     "evidence_urls": [
       "https://asms.sinica.edu.tw/en/Doc/Dlist?fid=64",
       "https://asms.sinica.edu.tw/en/News/Detail?n=130"
     ],
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -331,14 +310,14 @@
     "last_known_deadline": "",
     "call_status": "Closed – next call not announced",
     "verdict": "Uncertain",
-    "verdict_reason": "Nationality is fine, but the NRF page does not show the PhD-years/career-stage rule or current call dates, and this is a highly competitive PI-level fellowship; check the IGMS guidelines.",
+    "verdict_reason": "Nationality is not a barrier, but the NRF page does not show the post-PhD or career-stage limit, the current call dates or the host requirement; check the IGMS guidelines. Your PhD was awarded in January 2024, so you would fail a limit of under 3 years and pass a longer one. This is a highly competitive PI-level fellowship.",
     "eligibility_quote": "Outstanding young scientists and researchers of all nationalities are welcome to apply.",
-    "ask_funder": "When does the next NRF Fellowship call open, and what is the post-PhD experience limit and host-institution requirement for a Pakistani applicant with a 2025 PhD?",
+    "ask_funder": "When does the next NRF Fellowship call open? What is the post-PhD experience limit, and which date is it measured against, for a Pakistani applicant whose PhD was awarded in January 2024? What are the host-institution requirements?",
     "evidence_urls": [
       "https://www.nrf.gov.sg/grants/nrff"
     ],
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": ""
   },
   {
@@ -359,13 +338,13 @@
     "last_known_deadline": "",
     "call_status": "Open now",
     "verdict": "Eligible",
-    "verdict_reason": "Your PhD (after Nov 2024) is within 5 years, AI and mobility/autonomy are named fields, and the call is open to applicants worldwide with no age, gender or institution rule; you must be able to start by 31 Dec 2027 and spend one year in Sweden.",
+    "verdict_reason": "Your PhD was awarded in January 2024, so it will be under 3 years old at the 31 Dec 2026 deadline and under 4 years old by the latest start date of 31 Dec 2027, within the 5-year limit. AI and mobility/autonomy are named fields, and the call is open worldwide with no age, gender or institution rule. You must be able to start by 31 Dec 2027 and spend one year in Sweden.",
     "eligibility_quote": "Eligibility Criteria: Within 5 years of obtaining PhD or equivalent degree; Demonstrable intellectual excellence; Maturity and capacity to begin an independent research career; ... Be available to take up the position no later than 31 December 2027.",
     "evidence_urls": [
       "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)"
     ],
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -387,14 +366,12 @@
     "last_known_deadline": "",
     "call_status": "Open now",
     "verdict": "Uncertain",
-    "verdict_reason": "Your PhD is recent enough and Electrical Engineering is not computer science, but the scheme targets non-CS scientists who apply AI to their field; an EE PhD focused on AI may be judged as an AI/CS background.",
+    "verdict_reason": "If the 3 years run to the 31 Dec 2026 deadline, your January 2024 award puts you about 2 years 11 months past your PhD, which passes. Your December 2023 defence would also pass if you apply before its third anniversary. The page does not give the reference date, so you would fail if it is the fellowship start date in 2027. Electrical Engineering is not computer science, but the scheme targets non-CS scientists who apply AI to their field, and an EE PhD focused on AI may be judged as an AI/CS background.",
     "eligibility_quote": "Applicants must be within 3 years of having obtained PhD degree or equivalent degree in non-computer science areas. ... Only research on applying AI techniques to engineering, natural sciences and mathematical sciences will be supported.",
-    "ask_funder": "Does a PhD in Electrical Engineering whose thesis used AI methods count as a 'non-computer science' PhD, for a project applying AI to robotics/engineering?",
-    "evidence_urls": [
-      "https://www.ntu.edu.sg/research/research-careers/the-eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellowship"
-    ],
+    "ask_funder": "Is the 3-year PhD window measured to the 31 Dec 2026 application deadline or to the fellowship start date, and is it counted from the thesis defence (Dec 2023 for me) or the degree award (Jan 2024)? Does a PhD in Electrical Engineering whose thesis used AI methods count as a 'non-computer science' PhD, for a project applying AI to robotics/engineering?",
+    "evidence_urls": "https://www.ntu.edu.sg/research/research-careers/the-eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellowship",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": ""
   },
   {
@@ -415,13 +392,13 @@
     "last_known_deadline": "2026-10-30",
     "call_status": "Closed – next call not announced",
     "verdict": "Eligible",
-    "verdict_reason": "Your EE PhD (2025) is a STEM PhD conferred in 2023 or later and your AI work fits; no nationality, age or institution rule. The 2026 call closed yesterday.",
+    "verdict_reason": "Your EE PhD, awarded in January 2024, is a STEM PhD 'conferred within the past 3 years (in 2023 or later)', and your AI work fits. There is no nationality, age or institution rule. The 2026 call closed on 30 Oct 2026. If the 2027 call moves the cut-off to '2024 or later', your January 2024 award still qualifies, but that call is not published yet.",
     "eligibility_quote": "PhD (or equivalent) conferred within the past 3 years (in 2023 or later) in a STEM field; Strong academic and research record; A compelling research proposal that clearly integrates AI to solve a scientific problem; Must identify an NTU faculty member as a Project Mentor",
     "evidence_urls": [
       "https://www.ntu.edu.sg/research/research-careers/ntu-ai-for-x-postdoctoral-fellowship"
     ],
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -471,16 +448,11 @@
     "last_known_deadline": "2026-10-01",
     "call_status": "Closed – next call not announced",
     "verdict": "Eligible",
-    "verdict_reason": "Your PhD (after Nov 2024) meets the four-year rule, all nationalities are accepted and AI is a named mission; you would have to work full-time at KAUST with no other primary employment. Stage 1 for Call 2027 closed on 1 Oct 2026.",
+    "verdict_reason": "Your PhD was awarded in January 2024, which meets the Call 2027 rule (PhD after January 2023 inclusive). If the four-calendar-year rule rolls forward as before, Call 2028 would require a PhD after January 2024 inclusive, so you would just qualify and it would be your last chance. All nationalities are accepted and AI is a named mission. You would have to work full-time at KAUST with no other primary employment. Stage 1 of Call 2027 closed on 1 Oct 2026; Call 2028 concept notes are expected September 2027.",
     "eligibility_quote": "Must have been awarded a Ph.D. degree, within four calendar years - those applying for CALL 2027, must have received their Ph.D. after January 2023 inclusive; ... People of all nationalities are welcome to apply.",
-    "evidence_urls": [
-      "https://kgfp.kaust.edu.sa/how-to-apply",
-      "https://kgfp.kaust.edu.sa/apply/",
-      "https://kgfp.kaust.edu.sa/faqs",
-      "https://kgfp.kaust.edu.sa/fellowship"
-    ],
+    "evidence_urls": "https://kgfp.kaust.edu.sa/how-to-apply\nhttps://kgfp.kaust.edu.sa/apply/\nhttps://kgfp.kaust.edu.sa/faqs\nhttps://kgfp.kaust.edu.sa/fellowship",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   },
@@ -559,14 +531,11 @@
     "last_known_deadline": "2025-12-30",
     "call_status": "Closed – next call not announced",
     "verdict": "Not eligible",
-    "verdict_reason": "You have no postdoctoral research experience abroad (you have worked in Pakistan since your PhD), which the call requires, and the age limit is under 40 while your band is 36-45.",
+    "verdict_reason": "Your PhD, awarded in January 2024, is inside the 'last 4 years' window. However, the call requires at least 1 year of postdoctoral research abroad, and you have none because you have worked in Pakistan since your PhD. The age limit is also under 40, while your age band is 36-45.",
     "eligibility_quote": "Researchers applying to the programme must be under the age of 40* as of the call opening date. ... Early-stage researchers who, after completing their doctoral degrees within the last 4 years, have at least 1 year of postdoctoral research experience abroad.",
-    "evidence_urls": [
-      "https://tubitak.gov.tr/en/scholarships/international/research-scholarship-programs/2232-b-international-fellowship-early-stage-researchers",
-      "https://tubitak.gov.tr/en/announcement/2232-international-fellowship-outstanding-researchers-programme-and-2232-b-international-fellowship-early-stage-researchers-programme-2025-calls-are-open-application"
-    ],
+    "evidence_urls": "https://tubitak.gov.tr/en/scholarships/international/research-scholarship-programs/2232-b-international-fellowship-early-stage-researchers\nhttps://tubitak.gov.tr/en/announcement/2232-international-fellowship-outstanding-researchers-programme-and-2232-b-international-fellowship-early-stage-researchers-programme-2025-calls-are-open-application",
     "category": "Postdoctoral Fellowship",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "opens_on": "",
     "ask_funder": ""
   }

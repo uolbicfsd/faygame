@@ -75,7 +75,7 @@
     "ai_fit": "High",
     "url": "https://sindhhec.gov.pk/sindh-research-support-programme/",
     "how_to_apply_tip": "Frame the AI project around a Sindh issue (water, health, climate, education) – provincial-priority and collaborative proposals are preferred.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 3,
     "deadline_quote": "CALL FOR RESEARCH PROPOSALS (ADVERTISEMENT – ENGLISH) – SINDH RESEARCH SUPPORT PROGRAMME (2026-27) – Deadline: 23-Oct-2026",
@@ -383,7 +383,7 @@
     "ai_fit": "High",
     "url": "https://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/default.aspx",
     "how_to_apply_tip": "You get only one chance and incomplete files are rejected: collect 3 vendor quotations, signed ORIC/VC undertaking and budget sheet before submitting the online form.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 13,
     "deadline_quote": "A faculty member on IPFP needs to apply for Start-up Research Grant within 01 months of his/her joining.",
@@ -391,15 +391,10 @@
     "call_status": "Rolling",
     "opens_on": "",
     "verdict": "Not eligible",
-    "verdict_reason": "SRGP is only for fresh PhDs who join as IPFP Fellows at a public university or a private one eligible for public funding. The profile is an experienced Associate Professor at a private TNE college, not an IPFP fellow.",
+    "verdict_reason": "SRGP is only for fresh PhDs who join a public university, or a private one eligible for public funding, as IPFP Fellows. You are an experienced Associate Professor at a private TNE college, not an IPFP fellow. Your PhD, awarded in January 2024, is also past the 2-year 'fresh PhD' window.",
     "eligibility_quote": "Fresh Ph.D. degree holder who has recently joined a public sector or private sector university eligible for public funding (first time after Ph.D.) as IPFP Fellow on Interim Placement of Fresh Ph.D. (IPFP). / Experienced faculty members/researcher or Faculty of Private Institutions are not eligible for Government funding",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/default.aspx",
-      "https://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/Eligibility-Criteria.aspx",
-      "https://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/Other-Information.aspx",
-      "https://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/How-to-Apply.aspx"
-    ]
+    "evidence_urls": "https://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/default.aspx\nhttps://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/Eligibility-Criteria.aspx\nhttps://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/Other-Information.aspx\nhttps://www.hec.gov.pk/Urdu/NAHE/SRGP/Pages/How-to-Apply.aspx"
   },
   {
     "name": "Transformative AI Fund (successor to Long-Term Future Fund)",
@@ -446,7 +441,7 @@
     "ai_fit": "Medium",
     "url": "https://comstech.org/comstech-ifs-research-grants-programme/",
     "how_to_apply_tip": "Fits AI applied to agriculture/water/food (e.g. image-based crop disease detection, as in a 2023 Pakistani award). Note: ifs.se domain no longer belongs to IFS; confirm the current IFS call channel via COMSTECH.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "seed_intl",
     "id": 15,
     "deadline_quote": "No call, deadline or eligibility text on the official COMSTECH programme pages, which show only past allocations and grantee counts up to 2023.",
@@ -456,7 +451,7 @@
     "verdict": "Uncertain",
     "verdict_reason": "The official pages give no current call, eligibility rules or IFS call channel. IFS has historically used early-career limits that a 36-45-year-old may or may not meet, but these are not stated on the official pages.",
     "eligibility_quote": "The essential purpose of the collaboration is to enhance research capability within the OIC region, and to reap a rich harvest by obtaining matching grants from IFS (US$ 0.1 million/year) for OIC scientists and institutions.",
-    "ask_funder": "Is the COMSTECH-IFS programme still active for 2026-27? If so, what are the eligibility limits (age, years since PhD, fields, institution type), and does AI/robotics applied to agriculture or water qualify?",
+    "ask_funder": "Is the COMSTECH-IFS programme still active for 2026-27? If so, what are the eligibility limits (age, years since PhD, fields, institution type)? My PhD was awarded in January 2024. Does AI/robotics applied to agriculture or water qualify?",
     "evidence_urls": [
       "https://comstech.org/comstech-ifs-research-grants-programme/",
       "https://comstech.org/comstech-ifs-research-grants-program/"

@@ -46,7 +46,7 @@
     "ai_fit": "Medium",
     "url": "https://comstech.org/comstech-consortium-of-excellence-research-fellowships/",
     "how_to_apply_tip": "Pick a CCoE host outside Pakistan from COMSTECH's list, then email the online form, CV, 2 references and head-of-institution letter to comstech@comstech.org.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "pakistan",
     "id": 77,
     "deadline_quote": "Deadline: Applications /Nominations are open all around the year",
@@ -54,12 +54,10 @@
     "call_status": "Rolling",
     "opens_on": "",
     "verdict": "Eligible",
-    "verdict_reason": "You are a Pakistani (OIC) citizen with a PhD, and 45 is the age cap for the post-PhD track, so ages 36-45 pass. The page sets no institution-type or years-since-PhD limits; you must turn 46 only after applying.",
+    "verdict_reason": "You are a Pakistani (OIC) citizen with a PhD, and the post-PhD track caps age at 45, so ages 36-45 pass. The page sets no limit on years since PhD, so your January 2024 award does not matter, and it sets no institution-type limit. You must apply before you turn 46.",
     "eligibility_quote": "Age limit: Maximum 35 years (For graduate studies), 45 years (For post-graduate studies) ... Eligible Countries: All OIC member states. ... They are offered to young scientists holding at least an M.S or equivalent degree for graduate studies, and Ph.D. for post-graduate studies or involved in active research. Eligible applicants for the research fellowships are young scientists and Engineers who are citizens of an OIC country, or are employed by a research institution in an OIC country.",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://comstech.org/comstech-consortium-of-excellence-research-fellowships/"
-    ]
+    "evidence_urls": "https://comstech.org/comstech-consortium-of-excellence-research-fellowships/"
   },
   {
     "name": "DFG Initiation of International Collaboration (guest visits)",
@@ -283,14 +281,14 @@
     "amount": "Competitive salary and benefits; visa and housing assistance",
     "duration": "One semester (Fall 2027 program)",
     "eligibility": "Early-career researchers within about 5 years of PhD in theoretical CS / ML theory",
-    "pakistan_eligible": "Likely (no restriction stated)",
+    "pakistan_eligible": "Check",
     "eligibility_note": "No nationality restriction stated on the official pages.",
     "deadline": "2026-12-01",
     "status": "Open",
     "ai_fit": "High",
     "url": "https://simons.berkeley.edu/research-fellowship-call-applications",
     "how_to_apply_tip": "Apply to the semester program closest to your research (cover letter, CV and research statement in one PDF, plus 3 referees).",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "visiting",
     "id": 85,
     "deadline_quote": "The application period opens on October 1, 2026, and applications are due December 1, 2026.",
@@ -298,7 +296,7 @@
     "call_status": "Open now",
     "opens_on": "2026-10-01",
     "verdict": "Eligible",
-    "verdict_reason": "Your PhD (after Nov 2024) is well within the 5-year post-PhD window, and faculty may apply. The page sets no nationality, age or institution rule. The fit with a theory-focused programme (Diffusion Generative Modeling) is a competitiveness issue, not an eligibility one.",
+    "verdict_reason": "Your PhD was awarded in January 2024, so it will be about 3.6 years old at the start of the 2027-28 academic year, well within the five-year limit, and faculty may apply. The page sets no nationality, age or institution rule. How well you fit a theory-focused programme (Diffusion Generative Modeling) affects your chances, not your eligibility.",
     "eligibility_quote": "Simons Institute Research Fellowships are intended for exceptional young scientists (within at most five years post-PhD the start of the 2027–28 academic year). ... Applicants who already hold junior faculty or postdoctoral positions are welcome to apply. ... Salaries and benefits are competitive, and assistance with visas and housing will be provided.",
     "ask_funder": "",
     "evidence_urls": [
@@ -381,7 +379,7 @@
     "ai_fit": "High",
     "url": "https://www.ipam.ucla.edu/programs/long-programs/artificial-intelligence-in-materials-science/",
     "how_to_apply_tip": "Watch the program page and apply as soon as the form opens; stress your ML for scientific modeling work.",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "source_scout": "visiting",
     "id": 88,
     "deadline_quote": "Applications will be accepted through Friday, April 16, 2027, but offers may be made at any time, up to one year before the start date. Applications received after the deadline will still be considered if there is space available.",
@@ -392,10 +390,6 @@
     "verdict_reason": "Funding is open to researchers at all career levels in this area. The page has no nationality, age or institution restriction, and your AI/ML background fits the program theme.",
     "eligibility_quote": "We typically offer support to recent PhDs, graduate students, and researchers in the early stages of their career; however, mathematicians and scientists at all levels who are interested in this area are encouraged to apply for funding.",
     "ask_funder": "",
-    "evidence_urls": [
-      "https://www.ipam.ucla.edu/programs/long-programs/",
-      "https://www.ipam.ucla.edu/programs/long-programs/artificial-intelligence-in-materials-science/?tab=application",
-      "https://www.ipam.ucla.edu/wp-content/uploads/2026/04/AIM2027-flyer-1.pdf"
-    ]
+    "evidence_urls": "https://www.ipam.ucla.edu/programs/long-programs/\nhttps://www.ipam.ucla.edu/programs/long-programs/artificial-intelligence-in-materials-science/?tab=application\nhttps://www.ipam.ucla.edu/wp-content/uploads/2026/04/AIM2027-flyer-1.pdf"
   }
 ]
